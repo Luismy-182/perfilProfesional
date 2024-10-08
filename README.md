@@ -1,5 +1,2 @@
-# base-devel
-Base para desarrollo web, mini Framework.
-npm install  ,
-composer update  ,
-Listo! a programar
+# Perfil profesional
+Mi pagina personal con portafolio de proyectos
