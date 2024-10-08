@@ -1,2 +1,2 @@
 # Perfil profesional
-Mi pagina personal con portafolio de proyectos
+Mi página profesional donde lo ocupo para entrevistas profesionales, incluye portafolio de proyectos
