@@ -2,7 +2,11 @@
 @use 'base/mixins' as m;
 
 .proyectos{
-    margin-top: 5rem;
+    margin-top: 0rem;
+
+    @include m.tablet{
+        margin-top: 5rem;
+    }
 
     .encabezado{
         
@@ -16,7 +20,11 @@
     }
 
     .imagen-proyecto{
-        padding: 2rem 13rem;
+       
+        padding: 1rem;
+        @include m.tablet{
+            padding: 2rem 13rem;
+        }   
     }
 }
 
@@ -29,7 +37,19 @@
 
     .presentacion-imagen{
         max-width: 27%;
-        padding: 5rem;
+        margin-bottom: 1.5rem;
+
+        @include m.tablet{
+            max-width: 27%;
+            padding: 3rem; 
+            margin-bottom: unset;
+        }
+
+        @include m.desktop{
+            max-width: 27%;
+            padding: 5rem; 
+            margin-bottom: unset;
+        }
     }
 
 
@@ -37,7 +57,16 @@
         text-align: center;
 
         p{
-            padding: 1rem 15rem;
+            padding: 0;
+            font-size: 1.8rem;
+            text-align: justify;
+            
+
+            @include m.tablet{
+                padding: 1rem 15rem;
+                font-size: unset;
+                text-align: center;
+            }
         }
     }
 }
@@ -51,6 +80,13 @@
     .empresa{
         text-align: center;
         padding: 2rem;
+    }
+
+    p{
+        text-align: justify;
+        @include m.tablet{
+            text-align: center;
+        }
     }
 
     p, h3, h4{
@@ -72,7 +108,16 @@
     }
 
     .experiencia{
-        @include m.grid(3,2rem);
+        display: flex;
+        flex-direction: column;
+
+
+        @include m.tablet{
+            @include m.grid(2, 2rem);
+        }
+        @include m.desktop{
+            @include m.grid(3, 2rem);
+        }
        
       
         .targeta{
@@ -83,16 +128,49 @@
             
             .parrafo{
                 order: 2;
-                p{
+                p{  
+                   
+
+                    @include m.tablet{
+                        text-align: justify;
+                        font-size: 1.6rem;
+
+                    }
+
+                    @include m.desktop{
+                        text-align: unset;
+                        font-size: unset;
+                    }
+
                     .parrafo-negrita{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        margin: 0;
+
+
+                        @include m.tablet{
                         display:block;
                         text-align: center;
+                        font-size: 1.9rem;
+                        }
+
+
+                        @include m.desktop{
+                            font-size:unset;
+                        }
                     }
+
+                    
                 }
                 
             }
             .imagen-area{
                 order: 1;
+                margin-top: 7rem;
+                @include m.tablet{
+                    margin-top: 5rem;
+                }
                img{
                 aspect-ratio: 1/1;
                 object-fit:cover;
@@ -132,20 +210,44 @@
 
 
         .habilidades{
-            @include m.grid(5, .5rem);
-            align-items: center;
-            justify-content: center;
+            @include m.grid(2, .2rem);
+
+            @include m.tablet{
+                @include m.grid(4, .5rem);
+                align-items: center;
+                justify-content: center;
+            }
+           
         }
 
         .habilidad{
            text-align: center;
            padding: 2rem;
+            font-size: 1.2rem;
+           @include m.tablet{
+            font-size: 1.3rem;
+           }
 
+           @include m.desktop{
+            font-size: 1.4rem;
+           }
 
            .icono{
+
+            img{
+                aspect-ratio: 1/1;
                 
-                object-fit:cover;
+                object-fit:contain;
                 padding: 2rem;
+
+                @include m.tablet{
+                    padding: 1rem;
+                }
+                @include m.desktop{
+                    padding: 3rem;
+                }
+            }
+                
            }
         }
     }
@@ -153,23 +255,23 @@
 }
 
 
+/*---------------------------Aptitudes---------------------------------------*/
+
 .bg-tercero{
     background-color:v.$morado;
     
-
-    .titulo-ligero{
-        padding-top: 2rem;
-    }
 }
 
 
 
 
 .aptitudes{
-   display: flex;
-   align-items: center;
-
-   
+ 
+    
+   @include m.tablet{
+    display: flex;
+    align-items: center;
+   }
     
     
     li{
@@ -183,31 +285,25 @@
 
 
 .bg-cuarto{
-    background-color: #FFD66C;
-
-
+    background-color: v.$segundo;
 
     .escuela{
-        @include m.contenedor;
-        display: flex;
-        padding: 5rem;
-        gap: 5rem;
-       align-items: center;
         
-        .info-escuela{
-            align-items: center;
-            
-            
+        margin-top: 2rem;
+        padding: 0 2rem;
+      
+        @include m.tablet{
+            @include m.grid(2,2rem);
+            padding: 2rem;
+
         }
-        
-        
-        .img-escuela{
-            width: 45rem;
-            aspect-ratio: 1/1;
-            object-fit:cover;
-            
+        @include m.desktop{
+            margin-top:5rem;
+            padding: 5rem;
         }
     }
+
+    
 }
 
 
@@ -231,13 +327,21 @@
             color: v.$blanco;
             display: flex;
             justify-content: center;
-            gap: 2rem;
+            gap:2rem;
+            font-size: 1.4rem;
+            @include m.tablet{
+                font-size: unset;
+            }
             text-align: center;
             padding: 1rem;
             
             
             i{
-                font-size: 3rem;
+                font-size: 2.2rem;
+                margin-bottom: 1rem;
+                @include m.tablet{
+                    font-size: 3rem;
+                }
                 color: v.$blanco;
             }
 
@@ -245,7 +349,8 @@
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
-                margin: 1rem;
+                
+               
             }
         }
         

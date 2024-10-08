@@ -403,15 +403,15 @@
 <!------------------------------Educación------------------------------->
 <section class="bg-cuarto">
 <h3 class="titulo-ligero text-center">Educación</h3>
-    <div class="escuela">
+    <div class="contenedor escuela">
 
 
         <div class="info-escuela">
 
-            <p>Título: <span class="text-bold">Ingeniería en Tecnologías de la Información y Comunicación</span></p>
-            <p>Instituto Tecnológico de Puebla</p>
+            <p>Título: <span class="text-bold">Ingeniería en Tecnologías de la Información y Comunicación.</span></p>
+            <p>Instituto Tecnológico de Puebla.</p>
             <p class="titulo-ligero">2015 – 2020</p>
-            <p><span class="text-bold">Orgullosamente Tec de Puebla </span></p>
+            <p><span class="text-bold">Orgullosamente Tec de Puebla.</span></p>
         </div>
 
         <div class="img-escuela">
@@ -428,7 +428,7 @@
 
         <div class="informacion-personal">
         <h3 class="titulo-ligero text-white text-center">Contacto</h3>
-        <p class="text-white"><i class="fa-solid fa-location-dot" style="color: #a51d2d;"></i>Originario del estado de Tlaxcala, del municipio de Teolocholco</p>
+        <p class="text-white"><i class="fa-solid fa-location-dot" style="color: #a51d2d;"></i>Teolocholco, Tlaxcala.</p>
         <p class="text-white"><i class="fa-solid fa-envelope" style="color: #3584e4;"></i>miguel.buny@gmail.com</p>
         <p class="text-white"><i class="fa-solid fa-mobile-screen-button" style="color: #6781bb;"></i>2461735434</p>
         </div>

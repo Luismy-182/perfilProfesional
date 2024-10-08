@@ -9,5 +9,15 @@
         margin: 0;
         text-align: center;
         padding: 2rem;
+        font-size: 1.5rem;
+        font-weight: 200;
+       
+        @include m.tablet{
+        margin: 0;
+        text-align: center;
+        padding: 2rem;
+        }
+
+
     }
 }
