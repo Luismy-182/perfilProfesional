@@ -1,0 +1,253 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.proyectos{
+    margin-top: 5rem;
+
+    .encabezado{
+        
+        text-align: center;
+
+        .titulo-ligero{
+            font-weight: 200;
+        }
+        
+
+    }
+
+    .imagen-proyecto{
+        padding: 2rem 13rem;
+    }
+}
+
+
+.presentacion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+    .presentacion-imagen{
+        max-width: 27%;
+        padding: 5rem;
+    }
+
+
+    .presentacion-texto{
+        text-align: center;
+
+        p{
+            padding: 1rem 15rem;
+        }
+    }
+}
+
+
+
+/***************************Experiencia*****************************/
+.bg-azul{
+    background-color: v.$azul;
+
+    .empresa{
+        text-align: center;
+        padding: 2rem;
+    }
+
+    p, h3, h4{
+        color: v.$blanco;
+        
+    }
+
+    h4{
+        font-weight: 200;
+        font-size: 3rem;
+    }
+
+    .parrafo-negrita{
+        display: inline-block;
+        font-weight: 700;
+        font-size: 3rem;
+        margin-bottom: 3rem;
+        
+    }
+
+    .experiencia{
+        @include m.grid(3,2rem);
+       
+      
+        .targeta{
+          display: flex;
+          flex-direction: column;
+         
+            
+            
+            .parrafo{
+                order: 2;
+                p{
+                    .parrafo-negrita{
+                        display:block;
+                        text-align: center;
+                    }
+                }
+                
+            }
+            .imagen-area{
+                order: 1;
+               img{
+                aspect-ratio: 1/1;
+                object-fit:cover;
+               }
+                
+             
+               
+                
+            }
+        }
+    }
+}
+
+
+/************************Habilidades*********************************/
+.bg-segundo{
+    //background-color: v.$segundo;
+    
+
+
+
+    .seccion{
+        text-align: center;
+        padding-top: 2rem;
+        
+
+        h3{
+            font-weight: 200;
+        }
+    }
+
+    .seccion-habilidades{
+        width: 95%;
+        max-width: 100rem;
+        margin: 0 auto;
+
+
+
+        .habilidades{
+            @include m.grid(5, .5rem);
+            align-items: center;
+            justify-content: center;
+        }
+
+        .habilidad{
+           text-align: center;
+           padding: 2rem;
+
+
+           .icono{
+                
+                object-fit:cover;
+                padding: 2rem;
+           }
+        }
+    }
+
+}
+
+
+.bg-tercero{
+    background-color:v.$morado;
+    
+
+    .titulo-ligero{
+        padding-top: 2rem;
+    }
+}
+
+
+
+
+.aptitudes{
+   display: flex;
+   align-items: center;
+
+   
+    
+    
+    li{
+        list-style: none;
+        padding: 1rem;
+    }
+}
+
+
+/****************************************Educación*************************************/
+
+
+.bg-cuarto{
+    background-color: #FFD66C;
+
+
+
+    .escuela{
+        @include m.contenedor;
+        display: flex;
+        padding: 5rem;
+        gap: 5rem;
+       align-items: center;
+        
+        .info-escuela{
+            align-items: center;
+            
+            
+        }
+        
+        
+        .img-escuela{
+            width: 45rem;
+            aspect-ratio: 1/1;
+            object-fit:cover;
+            
+        }
+    }
+}
+
+
+
+/****************************************Contacto*****************************************************/
+
+.bg-quinto{
+    background-color: v.$gris-oscuro;
+    padding-bottom: 0;
+
+    .informacion-personal{
+        i{
+            padding: 1rem;
+            font-size: 2rem;
+        }
+    }
+
+    .redes{
+        
+        .elementos-red{
+            color: v.$blanco;
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            text-align: center;
+            padding: 1rem;
+            
+            
+            i{
+                font-size: 3rem;
+                color: v.$blanco;
+            }
+
+            span{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                margin: 1rem;
+            }
+        }
+        
+    }
+}

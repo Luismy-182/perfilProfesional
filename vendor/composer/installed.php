@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'luismy/base',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => null,
+        'pretty_version' => 'dev-Master',
+        'version' => 'dev-Master',
+        'reference' => '305476a8f64208a242d2f87aa4b95c9012ed74b5',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -38,9 +38,9 @@
             'dev_requirement' => false,
         ),
         'luismy/base' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => null,
+            'pretty_version' => 'dev-Master',
+            'version' => 'dev-Master',
+            'reference' => '305476a8f64208a242d2f87aa4b95c9012ed74b5',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

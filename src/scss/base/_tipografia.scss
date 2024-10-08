@@ -2,7 +2,7 @@
 @use 'mixins' as m;
 
 h1, h2, h3 {
-    
+    margin: 0;
 }
 
 h1 {
@@ -16,4 +16,18 @@ h3 {
 }
 .text-center {
     text-align: center;
+}
+.titulo-ligero{
+    font-weight: 200;
+}
+
+.text-white{
+    color: v.$blanco;
+}
+.text-black{
+    color:v.$negro;
+}
+
+.text-bold{
+    font-weight: 700;
 }
