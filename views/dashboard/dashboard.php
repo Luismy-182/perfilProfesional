@@ -29,7 +29,7 @@
                 sus procesos y crear soluciones a medida. Ademas me apaciona trabajar en equipo. Actualmente me dedico a desarrollar software a base de proyectos personales mediante desarrollo web    
                 </p>
 
-                <a href="/proyectos"><span>Ver proyectos -></span></a>
+                <a href="/proyectos" target="_blank"><span>Ver proyectos -></span></a>
             </div>
         </div>
        </div>

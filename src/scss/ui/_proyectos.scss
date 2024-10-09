@@ -1,0 +1,51 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.encabezado{
+    h2{
+        font-weight: 200;
+    }
+    
+}
+
+
+.proyecto{
+   
+    padding: 2rem 2rem;
+    
+    &__descripcion{
+        padding: 1.8rem;
+        
+        p{
+            text-align: justify;
+        }
+    
+        &--botones{
+            display: flex;
+            flex-wrap: wrap;
+            gap:1rem;
+           
+        }
+        &-botonP{
+            @include m.boton(v.$morado, v.$blanco);
+            padding: 1rem
+        }
+        &-botonG{
+            @include m.boton(v.$gris-oscuro, v.$blanco);
+            padding: 1rem
+        }
+ 
+    
+    }
+
+   
+   
+    &__imagen{
+      
+        img{
+            aspect-ratio: 2/1;
+            object-fit:contain;
+        }
+    }
+    
+}

@@ -732,4 +732,63 @@ p {
     padding: 2rem;
   }
 }
+
+.encabezado h2 {
+  font-weight: 200;
+}
+
+.proyecto {
+  padding: 2rem 2rem;
+}
+.proyecto__descripcion {
+  padding: 1.8rem;
+}
+.proyecto__descripcion p {
+  text-align: justify;
+}
+.proyecto__descripcion--botones {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.proyecto__descripcion-botonP {
+  background-color: #6953C5;
+  padding: 1.5rem 4rem;
+  color: #FFFFFF;
+  font-size: 1.8rem;
+  font-weight: 700;
+  border: none;
+  transition-property: background-color;
+  transition-duration: 0.3s;
+  text-align: center;
+  width: 100%;
+  display: inline-block;
+  padding: 1rem;
+}
+.proyecto__descripcion-botonP:hover {
+  background-color: rgb(79.652173913, 57.747826087, 171.252173913);
+  cursor: pointer;
+}
+.proyecto__descripcion-botonG {
+  background-color: #273445;
+  padding: 1.5rem 4rem;
+  color: #FFFFFF;
+  font-size: 1.8rem;
+  font-weight: 700;
+  border: none;
+  transition-property: background-color;
+  transition-duration: 0.3s;
+  text-align: center;
+  width: 100%;
+  display: inline-block;
+  padding: 1rem;
+}
+.proyecto__descripcion-botonG:hover {
+  background-color: rgb(20.5833333333, 27.4444444444, 36.4166666667);
+  cursor: pointer;
+}
+.proyecto__imagen img {
+  aspect-ratio: 2/1;
+  object-fit: contain;
+}
 /*# sourceMappingURL=app.css.map */
