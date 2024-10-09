@@ -2,7 +2,7 @@
     <main class="proyectos">
         <div class="encabezado">
             <h2 class="titulo-ligero">Ing Miguel Angel Suarez Pluma</h2>
-            <p>Algunos proyectos personales que he realizado</p>
+            <p class="text-center">Algunos proyectos personales que he realizado</p>
         </div>
 
         <div class="imagen-proyecto">
@@ -433,14 +433,7 @@
         <p class="text-white"><i class="fa-solid fa-mobile-screen-button" style="color: #6781bb;"></i>2461735434</p>
         </div>
 
-        <nav class="redes">
-            <div class="container elementos-red">
-                <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i><span class="text-white">Instagram</span></a>
-                <a href="#"><i class="fa-brands fa-tiktok"></i><span class="text-white">Tik-Tok</span></a>
-                <a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i><span class="text-white">Facebook</span></a>
-                <a href="#"><i class="fa fa-github" aria-hidden="true"></i><span class="text-white">GitHub</span></a>
-            </div>
-        </nav>
+        <?php require_once __DIR__ .'/../includes/redes.php'; ?>
 
     </div>
 </section>

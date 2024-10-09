@@ -321,38 +321,5 @@
         }
     }
 
-    .redes{
-        
-        .elementos-red{
-            color: v.$blanco;
-            display: flex;
-            justify-content: center;
-            gap:2rem;
-            font-size: 1.4rem;
-            @include m.tablet{
-                font-size: unset;
-            }
-            text-align: center;
-            padding: 1rem;
-            
-            
-            i{
-                font-size: 2.2rem;
-                margin-bottom: 1rem;
-                @include m.tablet{
-                    font-size: 3rem;
-                }
-                color: v.$blanco;
-            }
-
-            span{
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                
-               
-            }
-        }
-        
-    }
+    
 }

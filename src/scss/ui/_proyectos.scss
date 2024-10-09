@@ -4,47 +4,112 @@
 .encabezado{
     h2{
         font-weight: 200;
+        p{
+            text-align: justify;
+        }
     }
+    
     
 }
 
-
+.proyecto:not(:last-child){
+    border-bottom: .5px dashed v.$gris-oscuro;
+}
 .proyecto{
-   
+    @include m.tablet{
+       @include m.grid(2, 1rem);
+       
+    }
     padding: 2rem 2rem;
     
     &__descripcion{
         padding: 1.8rem;
+
+        @include m.tablet{
+            padding: 0 2rem; //estrujar las descripciones
+        }
         
+        h3{
+            font-size: 2.2rem;
+            @include m.tablet{
+                font-size: 2rem;
+            }
+            @include m.desktop{
+                font-size: 3rem;
+            }
+        }
         p{
             text-align: justify;
+
+            @include m.tablet{
+                font-size: 1.5rem;
+            }
+            @include m.desktop{
+                font-size: unset;
+            }
+
+           
         }
     
         &--botones{
             display: flex;
             flex-wrap: wrap;
-            gap:1rem;
+            gap:1rem; //gap de botones
+
+            @include m.desktop{
+                gap: 3rem;
+            }
+
+            @include m.tablet{
+                flex-wrap: unset;
+                
+            }
            
         }
-        &-botonP{
+        &-botonP{ //boton Pagina
             @include m.boton(v.$morado, v.$blanco);
-            padding: 1rem
+            padding: 1rem;
+
+            @include m.tablet{
+                padding: .8rem;
+                font-size: 1.5rem;
+            }
+            @include m.desktop{
+                padding:1rem;
+                font-size: unset;
+            }
+
+           
         }
-        &-botonG{
+        &-botonG{//botn github
             @include m.boton(v.$gris-oscuro, v.$blanco);
-            padding: 1rem
+            padding: 1rem;
+
+            @include m.tablet{
+                padding: .8rem;
+                font-size: 1.5rem;
+            }
+            @include m.desktop{
+                padding:1rem;
+                font-size: unset;
+            }
         }
- 
-    
+        
+        
     }
 
    
    
     &__imagen{
-      
+        
         img{
             aspect-ratio: 2/1;
             object-fit:contain;
+
+            @include m.tablet{
+                aspect-ratio: unset;
+                object-fit:unset;
+            }
         }
     }
     

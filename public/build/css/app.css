@@ -359,6 +359,10 @@ h3 {
   text-align: center;
 }
 
+.text-justify {
+  text-align: justify;
+}
+
 .titulo-ligero {
   font-weight: 200;
 }
@@ -685,35 +689,6 @@ p {
   padding: 1rem;
   font-size: 2rem;
 }
-.bg-quinto .redes .elementos-red {
-  color: #FFFFFF;
-  display: flex;
-  justify-content: center;
-  gap: 2rem;
-  font-size: 1.4rem;
-  text-align: center;
-  padding: 1rem;
-}
-@media (min-width: 768px) {
-  .bg-quinto .redes .elementos-red {
-    font-size: unset;
-  }
-}
-.bg-quinto .redes .elementos-red i {
-  font-size: 2.2rem;
-  margin-bottom: 1rem;
-  color: #FFFFFF;
-}
-@media (min-width: 768px) {
-  .bg-quinto .redes .elementos-red i {
-    font-size: 3rem;
-  }
-}
-.bg-quinto .redes .elementos-red span {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
 
 .footer {
   background-color: #273445;
@@ -736,20 +711,72 @@ p {
 .encabezado h2 {
   font-weight: 200;
 }
+.encabezado h2 p {
+  text-align: justify;
+}
+
+.proyecto:not(:last-child) {
+  border-bottom: 0.5px dashed #273445;
+}
 
 .proyecto {
   padding: 2rem 2rem;
 }
+@media (min-width: 768px) {
+  .proyecto {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
 .proyecto__descripcion {
   padding: 1.8rem;
 }
+@media (min-width: 768px) {
+  .proyecto__descripcion {
+    padding: 0 2rem;
+  }
+}
+.proyecto__descripcion h3 {
+  font-size: 2.2rem;
+}
+@media (min-width: 768px) {
+  .proyecto__descripcion h3 {
+    font-size: 2rem;
+  }
+}
+@media (min-width: 1024px) {
+  .proyecto__descripcion h3 {
+    font-size: 3rem;
+  }
+}
 .proyecto__descripcion p {
   text-align: justify;
+}
+@media (min-width: 768px) {
+  .proyecto__descripcion p {
+    font-size: 1.5rem;
+  }
+}
+@media (min-width: 1024px) {
+  .proyecto__descripcion p {
+    font-size: unset;
+  }
 }
 .proyecto__descripcion--botones {
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
+}
+@media (min-width: 1024px) {
+  .proyecto__descripcion--botones {
+    gap: 3rem;
+  }
+}
+@media (min-width: 768px) {
+  .proyecto__descripcion--botones {
+    flex-wrap: unset;
+  }
 }
 .proyecto__descripcion-botonP {
   background-color: #6953C5;
@@ -769,6 +796,18 @@ p {
   background-color: rgb(79.652173913, 57.747826087, 171.252173913);
   cursor: pointer;
 }
+@media (min-width: 768px) {
+  .proyecto__descripcion-botonP {
+    padding: 0.8rem;
+    font-size: 1.5rem;
+  }
+}
+@media (min-width: 1024px) {
+  .proyecto__descripcion-botonP {
+    padding: 1rem;
+    font-size: unset;
+  }
+}
 .proyecto__descripcion-botonG {
   background-color: #273445;
   padding: 1.5rem 4rem;
@@ -787,8 +826,60 @@ p {
   background-color: rgb(20.5833333333, 27.4444444444, 36.4166666667);
   cursor: pointer;
 }
+@media (min-width: 768px) {
+  .proyecto__descripcion-botonG {
+    padding: 0.8rem;
+    font-size: 1.5rem;
+  }
+}
+@media (min-width: 1024px) {
+  .proyecto__descripcion-botonG {
+    padding: 1rem;
+    font-size: unset;
+  }
+}
 .proyecto__imagen img {
   aspect-ratio: 2/1;
   object-fit: contain;
+}
+@media (min-width: 768px) {
+  .proyecto__imagen img {
+    aspect-ratio: unset;
+    object-fit: unset;
+  }
+}
+
+.redes {
+  background-color: #273445;
+  padding-top: 2rem;
+}
+.redes .elementos-red {
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  font-size: 1.4rem;
+  text-align: center;
+  padding: 1rem;
+}
+@media (min-width: 768px) {
+  .redes .elementos-red {
+    font-size: unset;
+  }
+}
+.redes .elementos-red i {
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+  color: #FFFFFF;
+}
+@media (min-width: 768px) {
+  .redes .elementos-red i {
+    font-size: 3rem;
+  }
+}
+.redes .elementos-red span {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 /*# sourceMappingURL=app.css.map */
