@@ -316,6 +316,7 @@ body {
   font-size: 1.8rem;
   font-optical-sizing: auto;
   font-style: normal;
+  background-color: #FFFFFF;
 }
 
 a {
@@ -390,6 +391,21 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
+}
+.header .contenido .menu {
+  display: flex;
+  align-items: center;
+}
+.header .contenido .menu i {
+  position: absolute;
+  right: 3%;
+  font-size: 2.7rem;
+}
+@media (min-width: 768px) {
+  .header .contenido .menu i {
+    display: none;
+  }
 }
 .header .contenido .logo {
   font-weight: 400;
@@ -402,6 +418,11 @@ p {
   }
   .header .contenido .logo {
     padding: unset;
+    font-size: 3rem;
+  }
+}
+@media (min-width: 768px) and (min-width: 1024px) {
+  .header .contenido .logo {
     font-size: 3.7rem;
   }
 }
@@ -422,6 +443,9 @@ p {
 .header .navegacion a:hover {
   opacity: 0.7;
 }
+.header .active {
+  display: flex;
+}
 
 .proyectos {
   margin-top: 0rem;
@@ -436,6 +460,12 @@ p {
 }
 .proyectos .encabezado .titulo-ligero {
   font-weight: 200;
+  font-size: 2.2rem;
+}
+@media (min-width: 768px) {
+  .proyectos .encabezado .titulo-ligero {
+    font-size: 3.6rem;
+  }
 }
 .proyectos .imagen-proyecto {
   padding: 1rem;

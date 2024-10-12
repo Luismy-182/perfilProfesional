@@ -14,6 +14,13 @@
 
         .titulo-ligero{
             font-weight: 200;
+            font-size: 2.2rem;
+
+            @include m.tablet{
+                font-size:3.6rem;
+            }
+           
+            
         }
         
 

@@ -8,8 +8,24 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
    
-    
+    .menu{
+        display: flex;
+        align-items: center;
+        
+
+        i{
+            position:absolute;
+            right: 3%;
+            font-size: 2.7rem;
+
+            @include m.tablet{
+                display: none;
+            }
+            
+        }
+    }
         .logo{
             font-weight: 400;
             padding: 1rem;
@@ -20,7 +36,11 @@
 
         .logo{
             padding: unset;
-            font-size: 3.7rem;
+            font-size: 3rem;
+
+            @include m.desktop{
+                font-size: 3.7rem;
+            }   
         }
         
 
@@ -36,6 +56,8 @@
     gap: 2rem;
     display: none;
     
+    
+    
   
   
 
@@ -50,6 +72,11 @@
             opacity: .7;
         }
     }
+    .active{
+        display:flex;
+    }
 
   
 }
+
+
