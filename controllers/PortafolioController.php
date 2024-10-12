@@ -3,10 +3,10 @@
 namespace Controllers;
 use MVC\Router;
 
-class ProyectosController{
+class PortafolioController{
     public static function index(Router $router){
 
-        $router->render('proyectos/proyectos', [
+        $router->render('portafolio/portafolio', [
             'titulo'=>'Miguel Angel Suarez'
         ]);
     }

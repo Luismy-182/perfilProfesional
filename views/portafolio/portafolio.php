@@ -20,7 +20,8 @@
 
                 <div class="proyecto__descripcion">
                         <h3 class="proyecto__descripcion-titulo">Devstagram - un clon de instagram pero enfocado a programadores</h3>
-                        <p>Una red social clon de instagram, permite publicar, comentar, administrar y seguir a otros desarrolladores y enterarte de su vida, creado en Laravel 9 con Tailwindcss, livewire y vite usando MVC, POO y el ORM Eloquent para establecer relaciones </p>
+                        <p>Una red social clon de instagram, permite publicar, comentar, administrar y seguir a otros desarrolladores y enterarte de su vida, creado en Laravel 9 con Tailwindcss, livewire y vite usando MVC, POO y el ORM Eloquent para establecer relaciones,
+                            sin duda el proyecto que más me gusto</p>
                         <div class="proyecto__descripcion--botones">
                             <a class="proyecto__descripcion-botonG" href="https://github.com/Luismy-182/Devstagram" target="_blank">Ver en Github</a>    
                             <a class="proyecto__descripcion-botonP" href="https://wabreca.sao.dom.my.id/login" target="_blank">Ir al proyecto</a>
@@ -122,36 +123,19 @@
 
                 <div class="proyecto">
                     <div class="proyecto__imagen">
-                        <img src="build/img/veterinaria.png" alt="">
+                        <img src="build/img/podcastfm.webp" alt="PodcastFM imagen">
                     </div>
 
                     <div class="proyecto__descripcion">
-                        <h3 class="proyecto__descripcion-titulo">Seguimiento de pacientes de una veterinaria</h3>
-                        <p>Página web para darle seguimiento a pacientes que fueron dados de alta, realizado con Javascript y TailwindCSS</p>
+                        <h3 class="proyecto__descripcion-titulo">PodcastFM - una página web de podcast</h3>
+                        <p>Página web de PodcastFM donde se anuncia sus planes y precios, creado con HTML5 Bootstrap 5, SASS, Gulp y Nodejs</p>
                         <div class="proyecto__descripcion--botones">
-                            <a class="proyecto__descripcion-botonG" href="https://github.com/Luismy-182/seguimiento-pacientes-veterinaria" target="_blank">Ver en Github</a>    
-                            <a class="proyecto__descripcion-botonP" href="https://veterinaria-seguimientos.netlify.app/" target="_blank">Ir al proyecto</a>
+                            <a class="proyecto__descripcion-botonG" href="https://github.com/Luismy-182/podcastfm" target="_blank">Ver en Github</a>    
+                            <a class="proyecto__descripcion-botonP" href="https://podcastfm-mike.netlify.app/" target="_blank">Ir al proyecto</a>
                         </div>
                     </div>
                 </div><!---------fin proyecto---------------------->
 
-
-
-
-                <div class="proyecto">
-                    <div class="proyecto__imagen">
-                        <img src="build/img/veterinaria.png" alt="">
-                    </div>
-
-                    <div class="proyecto__descripcion">
-                        <h3 class="proyecto__descripcion-titulo">Seguimiento de pacientes de una veterinaria</h3>
-                        <p>Página web para darle seguimiento a pacientes que fueron dados de alta, realizado con Javascript y TailwindCSS</p>
-                        <div class="proyecto__descripcion--botones">
-                            <a class="proyecto__descripcion-botonG" href="#" target="_blank">Ver en Github</a>    
-                            <a class="proyecto__descripcion-botonP" href="#" target="_blank">Ir al proyecto</a>
-                        </div>
-                    </div>
-                </div><!---------fin proyecto---------------------->
 
 
             </div>

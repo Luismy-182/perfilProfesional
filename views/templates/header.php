@@ -4,7 +4,7 @@
 
 
         <nav class="navegacion">
-            <a href="#">Perfil</a>
+            <a href="/portafolio">Portafolio</a>
             <a href="#">Experiencia</a>
             <a href="#">Habilidades</a>
             <a href="#">Aptitudes</a>
