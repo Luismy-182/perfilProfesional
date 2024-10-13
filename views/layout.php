@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 
     <script src="https://kit.fontawesome.com/b3f5283f4b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/> 
     <link rel="stylesheet" href="/build/css/app.css">
 </head>
 <body>
@@ -17,6 +18,7 @@
         echo $contenido;
         include_once __DIR__ .'/templates/footer.php'; 
     ?>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="/build/js/bundle.min.js" defer></script>
 </body>
 </html>

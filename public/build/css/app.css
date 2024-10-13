@@ -435,8 +435,8 @@ p {
 }
 @media (min-width: 768px) {
   .header .navegacion {
-    flex-direction: row;
     display: flex;
+    flex-direction: row;
     gap: 1.2rem;
   }
 }
@@ -911,5 +911,85 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.slider {
+  max-width: 96%;
+}
+@media (min-width: 768px) {
+  .slider {
+    max-width: 78%;
+  }
+}
+@media (min-width: 1024px) {
+  .slider {
+    max-width: 78%;
+  }
+}
+
+.swiper {
+  width: auto;
+}
+.swiper .swiper-button-prev,
+.swiper .swiper-button-next {
+  --swiper-navigation-size:2rem;
+  background-color: rgba(255, 255, 255, 0.4);
+  color: #333333;
+  width: 22px;
+  height: 32px;
+  margin-top: -35px;
+}
+.swiper .swiper-button-prev:hover,
+.swiper .swiper-button-next:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+@media (min-width: 768px) {
+  .swiper .swiper-button-prev,
+  .swiper .swiper-button-next {
+    width: 25px;
+    height: 45px;
+    margin-top: -35px;
+  }
+}
+@media (min-width: 1024px) {
+  .swiper .swiper-button-prev,
+  .swiper .swiper-button-next {
+    width: 35px;
+    height: 55px;
+    margin-top: -35px;
+  }
+}
+.swiper .swiper-button-prev {
+  left: -5px;
+  border-radius: 0 25px 25px 0;
+}
+@media (min-width: 1024px) {
+  .swiper .swiper-button-prev {
+    left: -10px;
+    border-radius: 0 65px 65px 0;
+  }
+}
+.swiper .swiper-button-next {
+  right: -5px;
+  border-radius: 25px 0 0 25px;
+}
+@media (min-width: 1024px) {
+  .swiper .swiper-button-next {
+    right: -10px;
+    border-radius: 65px 0 0 65px;
+  }
+}
+.swiper img {
+  object-fit: cover;
+}
+.swiper .swiper-pagination {
+  --swiper-pagination-color: var(--swiper-theme-color);
+  --swiper-pagination-bullet-size: 6px;
+  --swiper-pagination-bullet-width: 8px;
+  --swiper-pagination-bullet-height: 8px;
+  --swiper-pagination-bullet-inactive-color: #000;
+  --swiper-pagination-bullet-inactive-opacity: 0.25;
+  --swiper-pagination-bullet-opacity: 1;
+  --swiper-pagination-bullet-horizontal-gap: 2px;
 }
 /*# sourceMappingURL=app.css.map */

@@ -10,41 +10,41 @@
     align-items: center;
     position: relative;
    
-    .menu{
-        display: flex;
-        align-items: center;
-        
+        .menu{
+            display: flex;
+            align-items: center;
+            
 
-        i{
-            position:absolute;
-            right: 3%;
-            font-size: 2.7rem;
+            i{
+                position:absolute;
+                right: 3%;
+                font-size: 2.7rem;
 
-            @include m.tablet{
-                display: none;
+                @include m.tablet{
+                    display: none;
+                }
+                
+            }
+        }
+            .logo{
+                font-weight: 400;
+                padding: 1rem;
+            }
+        @include m.tablet{
+        flex-direction: row;
+        justify-content: space-between;
+
+            .logo{
+                padding: unset;
+                font-size: 3rem;
+
+                @include m.desktop{
+                    font-size: 3.7rem;
+                }   
             }
             
-        }
-    }
-        .logo{
-            font-weight: 400;
-            padding: 1rem;
-        }
-    @include m.tablet{
-    flex-direction: row;
-    justify-content: space-between;
 
-        .logo{
-            padding: unset;
-            font-size: 3rem;
-
-            @include m.desktop{
-                font-size: 3.7rem;
-            }   
         }
-        
-
-    }
 
    
     }
@@ -54,26 +54,24 @@
     flex-direction: column;
     align-items: center;
     gap: 2rem;
+
     display: none;
     
-    
-    
-  
-  
 
-        @include m.tablet{
-        flex-direction: row;
-        display: flex;
-        gap:1.2rem;
+                @include m.tablet{
+                display: flex;
+                flex-direction: row;
+                gap:1.2rem;
+               
+                    
+                }
             
-        }
-    
-        a:hover{
-            opacity: .7;
-        }
-    }
+                a:hover{
+                    opacity: .7;
+                }
+            }
     .active{
-        display:flex;
+        display: flex;
     }
 
   

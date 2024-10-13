@@ -5,9 +5,38 @@
             <p class="text-center">Algunos proyectos personales que he realizado</p>
         </div>
 
-        <div class="imagen-proyecto">
-            <img src="build/img/festival1.png" alt="imagen proyecto 1">
+
+<!-------------Swipper---------------------------->
+<!-- Slider main container -->
+    <div class="swiper slider">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+            <!-- Slides -->
+          
+            <div class="swiper-slide"><img src="build/img/podcastfm.png" alt="imagen de rock festival"></div>
+            <div class="swiper-slide"><img src="build/img/appsalon_mvc.png" alt="imagen de rock festival"></div>
+            <div class="swiper-slide"><img src="build/img/gpoalze.png" alt="imagen de rock festival"></div>
+            <div class="swiper-slide"><img src="build/img/devstagram.png" alt="imagen de rock festival"></div>
+            <div class="swiper-slide"><img src="build/img/uptask_mvc.png" alt="imagen de rock festival"></div>
+            <div class="swiper-slide"><img src="build/img/cursos.png" alt="imagen de rock festival"></div>
+            <div class="swiper-slide"><img src="build/img/veterinaria.png" alt="imagen de rock festival"></div>
+            <div class="swiper-slide"><img src="build/img/rockfestival.png" alt="imagen de rock festival"></div>
+            
+
         </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+        <!-- If we need scrollbar -->
+        <div class="swiper-scrollbar"></div>
+    </div>
+<!-------------------fin swipper-------------------------------->
+
+     
 
 
     </main>
@@ -29,7 +58,7 @@
                 sus procesos y crear soluciones a medida. Ademas me apaciona trabajar en equipo. Actualmente me dedico a desarrollar software a base de proyectos personales mediante desarrollo web    
                 </p>
 
-                <a href="/proyectos" target="_blank"><span>Ver proyectos -></span></a>
+                <a href="/portafolio" target="_blank"><span>Ver proyectos -></span></a>
             </div>
         </div>
        </div>
