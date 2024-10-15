@@ -13,14 +13,14 @@
         <div class="swiper-wrapper">
             <!-- Slides -->
           
-            <div class="swiper-slide"><img src="build/img/podcastfm.png" alt="imagen de rock festival"></div>
-            <div class="swiper-slide"><img src="build/img/appsalon_mvc.png" alt="imagen de rock festival"></div>
-            <div class="swiper-slide"><img src="build/img/gpoalze.png" alt="imagen de rock festival"></div>
-            <div class="swiper-slide"><img src="build/img/devstagram.png" alt="imagen de rock festival"></div>
-            <div class="swiper-slide"><img src="build/img/uptask_mvc.png" alt="imagen de rock festival"></div>
-            <div class="swiper-slide"><img src="build/img/cursos.png" alt="imagen de rock festival"></div>
-            <div class="swiper-slide"><img src="build/img/veterinaria.png" alt="imagen de rock festival"></div>
-            <div class="swiper-slide"><img src="build/img/rockfestival.png" alt="imagen de rock festival"></div>
+            <div class="swiper-slide"><img src="build/img/podcastfm.webp" alt="imagen de rock festival"></div>
+            <div class="swiper-slide"><img src="build/img/appsalon_mvc.webp" alt="imagen de rock festival"></div>
+            <div class="swiper-slide"><img src="build/img/gpoalze.webp" alt="imagen de rock festival"></div>
+            <div class="swiper-slide"><img src="build/img/devstagram.webp" alt="imagen de rock festival"></div>
+            <div class="swiper-slide"><img src="build/img/uptask_mvc.webp" alt="imagen de rock festival"></div>
+            <div class="swiper-slide"><img src="build/img/cursos.webp" alt="imagen de rock festival"></div>
+            <div class="swiper-slide"><img src="build/img/veterinaria.webp" alt="imagen de rock festival"></div>
+            <div class="swiper-slide"><img src="build/img/rockfestival.webp" alt="imagen de rock festival"></div>
             
 
         </div>
@@ -46,16 +46,17 @@
        <div class="contenedor">
         <div class="presentacion">
             <div class="presentacion-imagen">
-                <img src="build/img/mike.png" alt="Foto de perfil">
+                <img src="build/img/mike.webp" alt="Foto de perfil">
             </div>
 
             <div class="presentacion-texto">
                 <h3>Perfil profesional</h3>
                 <p>
                 Como ingeniero en Tecnologías de la Información, mi pasión por el desarrollo de software y mi 
-                experiencia en el uso de sistemas operativos GNU/Linux. Me ha permitido participar y trabajar 
-                con los departamentos de la empresa donde realice prácticas profesionales, logrando mejorar 
-                sus procesos y crear soluciones a medida. Ademas me apaciona trabajar en equipo. Actualmente me dedico a desarrollar software a base de proyectos personales mediante desarrollo web    
+                experiencia en el uso de sistemas operativos GNU/Linux. Me ha permitido participar y trabajar con los 
+                departamentos de la empresa donde realice prácticas profesionales, logrando mejorar sus procesos y crear
+                soluciones a medida. Además, me apasiona trabajar en equipo. Actualmente, me dedico a desarrollar 
+                software a base de proyectos personales mediante desarrollo web
                 </p>
 
                 <a href="/portafolio" target="_blank"><span>Ver proyectos -></span></a>
@@ -67,14 +68,18 @@
 <!--------------------------------------otra seccion ------------------------------------------->
 
 
-<section class="bg-azul">
-    <div class="contenedor">
+<section class="bg-azul" id="experiencia" >
+    <div class="contenedor" >
         <div class="empresa">
                 <h3>Experiencia profesional</h3>
                 <h4>Desarrollador web</h4>
-                <p>Veladoras aramo es propiedad de Grupo alze, al que se realizo una aplicacion web, 
-                    para administrar todos los proveedores de todas las empresas que pertenecen a el, 
-                    entre ellas veladoras Aramo, donde fuí contratado, la aplicacion se encuentra implementada y funcionando a día de hoy</p>
+                <p>    
+                Me desempeñé como desarrollador web en una empresa llamada Veladoras Aramo, la cual es propiedad 
+                de un grupo industrial llamado Grupo Alze. Aquí desarrollé una aplicación web para administrar 
+                todos los proveedores de todas las empresas que pertenecen a él, entre ellas veladoras Aramo, 
+                donde fui contratado, la aplicación se encuentra implementada y funcionando a día de hoy, a 
+                continuación se listan algunos campos donde pude obtener experiencia laboral.
+                </p>
         </div>
         <div class="experiencia"><!-----------grid------------->
 
@@ -84,13 +89,13 @@
                         <p>
                         <span class="parrafo-negrita">Aplicación completa</span>
                         Creación e implementación de una aplicación web para la administración de proveedores y 
-                        prospectos de la empresa, hecho a la medida de las necesidades.
+                        prospectos de la empresa, hecha a la medida de las necesidades.
                         </p>
                     </div>
                
 
                 <div class="imagen-area">
-                    <img src="build/img/alze4.png" alt="imagen de una app">
+                    <img src="build/img/alze4.webp" alt="imagen de una app">
                 </div>
 
             </div><!--fin targeta-->
@@ -107,7 +112,7 @@
                 </div>
 
                 <div class="imagen-area">
-                    <img src="build/img/alze2.png" alt="imagen de una app">
+                    <img src="build/img/alze2.webp" alt="imagen de una app">
                 </div>
             
             </div><!--fin targeta-->
@@ -123,7 +128,7 @@
                 </div>
 
                 <div class="imagen-area">
-                    <img src="build/img/mariadb.png" alt="imagen de una app">
+                    <img src="build/img/mariadb.webp" alt="imagen de una app">
                 </div>
             
             </div><!--fin targeta-->
@@ -139,7 +144,7 @@
                 </div>
 
                 <div class="imagen-area">
-                    <img src="build/img/phpmailer.png" alt="imagen de una app">
+                    <img src="build/img/phpmailer.webp" alt="imagen de una app">
                 </div>
             
             </div><!--fin targeta-->
@@ -156,7 +161,7 @@
                 </div>
 
                 <div class="imagen-area">
-                    <img src="build/img/composer.png" alt="imagen de una app">
+                    <img src="build/img/composer.webp" alt="imagen de una app">
                 </div>
             
             </div><!--fin targeta-->
@@ -200,7 +205,7 @@
                 </div>
 
                 <div class="imagen-area">
-                    <img src="build/img/cpanel.png" alt="imagen de una app">
+                    <img src="build/img/cpanel.webp" alt="imagen de una app">
                 </div>
             
             </div><!--fin targeta-->
@@ -214,7 +219,7 @@
                 </div>
 
                 <div class="imagen-area">
-                    <img src="build/img/alzeprod.png" alt="imagen de una app">
+                    <img src="build/img/alzeprod.webp" alt="imagen de una app">
                 </div>
             
             </div><!--fin targeta-->
@@ -230,7 +235,7 @@
                 </div>
 
                 <div class="imagen-area">
-                    <img src="build/img/alze2.png" alt="imagen de una app">
+                    <img src="build/img/alze2.webp" alt="imagen de una app">
                 </div>
             
             </div>
@@ -244,7 +249,7 @@
                 </div>
 
                 <div class="imagen-area">
-                    <img src="build/img/alze2.png" alt="imagen de una app">
+                    <img src="build/img/alze2.webp" alt="imagen de una app">
                 </div>
             
             </div>
@@ -258,7 +263,7 @@
                 </div>
 
                 <div class="imagen-area">
-                    <img src="build/img/alze2.png" alt="imagen de una app">
+                    <img src="build/img/alze2.webp" alt="imagen de una app">
                 </div>
             
             </div><!--fin targeta-->
@@ -271,8 +276,8 @@
 
 <!--------------------Habilidades---------------------------------->
 
-<section class="bg-segundo">
-    <div class="contenedor seccion">
+<section class="bg-segundo" id="habilidades">
+    <div class="contenedor seccion" >
         <h3 class="titulo-seccion">Habilidades</h3>
        
     </div>
@@ -281,7 +286,7 @@
     <div class="habilidades">
             <div class="habilidad">
                 <div class="icono">
-                    <img src="build/img/estructura.png" alt="Model view controller">
+                    <img src="build/img/estructura.webp" alt="Model view controller">
                 </div>
                 <div class="parrafo">
                     <p>Desarrollo Model View Controller (MVC)</p>
@@ -293,17 +298,17 @@
 
             <div class="habilidad">
                 <div class="icono">
-                    <img src="build/img/codigo.png" alt="codigo imagen">
+                    <img src="build/img/codigo.webp" alt="codigo imagen">
                 </div>
                 <div class="parrafo">
-                    <p>Programacion Orientada a Objetos</p>
+                    <p>Programación Orientada a Objetos</p>
                 </div>
             </div>
 
 
             <div class="habilidad">
                 <div class="icono">
-                    <img src="build/img/sql.png" alt=" imagen sql">
+                    <img src="build/img/sql.webp" alt=" imagen sql">
                 </div>
                 <div class="parrafo">
                     <p>Diseño y gestión BD relacionales</p>
@@ -317,7 +322,7 @@
                     <img src="build/img/php.svg" alt="imagen de php">
                 </div>
                 <div class="parrafo">
-                    <p>PHP, JS y FetchApi (Ajax)</p>
+                    <p>PHP, JS y FetchApi (antes Ajax)</p>
                 </div>
             </div>
 
@@ -337,14 +342,14 @@
                     <img src="build/img/bootstrap.svg" alt="Imagen bootstrap">
                 </div>
                 <div class="parrafo">
-                    <p>Boostrap 5</p>
+                    <p>Bootstrap 5</p>
                 </div>
             </div>
 
 
             <div class="habilidad">
                 <div class="icono">
-                    <img src="build/img/tailwind.png" alt="imagen tailwind">
+                    <img src="build/img/tailwind.webp" alt="imagen tailwind">
                 </div>
                 <div class="parrafo">
                     <p>TailwindCSS</p>
@@ -354,7 +359,7 @@
 
             <div class="habilidad">
                 <div class="icono">
-                    <img src="build/img/diseno.png" alt="Imagen diseño">
+                    <img src="build/img/diseno.webp" alt="Imagen diseño">
                 </div>
                 <div class="parrafo">
                     <p>Responsive Web Desing</p>
@@ -363,7 +368,7 @@
 
             <div class="habilidad">
                 <div class="icono">
-                    <img src="build/img/nodejs.png" alt="Imagen de node js">
+                    <img src="build/img/nodejs.webp" alt="Imagen de node js">
                 </div>
                 <div class="parrafo">
                     <p>NodeJs y composer</p>
@@ -393,7 +398,7 @@
                     <img src="build/img/tux.svg" alt="Imagen css">
                 </div>
                 <div class="parrafo">
-                    <p>Manejo avanazado de sistemas GNU/Linux</p>
+                    <p>Manejo avanzado de sistemas GNU/Linux</p>
                 </div>
             </div>
     </div>
@@ -405,13 +410,13 @@
 
 
 <!--------------------otra seccion Aptitudes-------------------->
-<section class="bg-tercero">
-    <div class="contenedor">
+<section class="bg-tercero" id="aptitudes">
+    <div class="contenedor" >
         <h3 class="titulo-ligero text-center text-white">Aptitudes</h3>
         
         <div class="aptitudes">
             <div class="aptitudes-imagen">
-                <img src="build/img/coworking.png" alt="Aptitudes imagene">
+                <img src="build/img/coworking.webp" alt="Aptitudes imagene">
             </div>
             
 
@@ -430,8 +435,8 @@
 
 
 <!------------------------------Educación------------------------------->
-<section class="bg-cuarto">
-<h3 class="titulo-ligero text-center">Educación</h3>
+<section class="bg-cuarto" id="educacion">
+<h3 class="titulo-ligero text-center" >Educación</h3>
     <div class="contenedor escuela">
 
 
@@ -440,7 +445,7 @@
             <p>Título: <span class="text-bold">Ingeniería en Tecnologías de la Información y Comunicación.</span></p>
             <p>Instituto Tecnológico de Puebla.</p>
             <p class="titulo-ligero">2015 – 2020</p>
-            <p><span class="text-bold">Orgullosamente Tec de Puebla.</span></p>
+            <p><span class="text-bold">Orgullosamente, Tec de Puebla.</span></p>
         </div>
 
         <div class="img-escuela">
@@ -452,8 +457,8 @@
 
 
 <!------------------------------Contacto------------------------------->
-<section class="bg-quinto">
-    <div class="contenedor">
+<section class="bg-quinto" id="contacto">
+    <div class="contenedor" >
 
         <div class="informacion-personal">
         <h3 class="titulo-ligero text-white text-center">Contacto</h3>
