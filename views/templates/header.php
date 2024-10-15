@@ -5,11 +5,11 @@
         </div>
         <nav class="navegacion" id="menu">
             <a href="/portafolio">Portafolio</a>
-            <a href="#experiencia" >Experiencia</a>
-            <a href="#habilidades">Habilidades</a>
-            <a href="#aptitudes" >Aptitudes</a>
-            <a href="#educacion" >Educación</a>
-            <a href="#contacto" >Contacto</a>
+            <a href="#experiencia" id="nav-exp">Experiencia</a>
+            <a href="#habilidades" id="nav-hab">Habilidades</a>
+            <a href="#aptitudes" id="nav-apt">Aptitudes</a>
+            <a href="#educacion" id="nav-edu">Educación</a>
+            <a href="#contacto" id="nav-con">Contacto</a>
         </nav>
     </div>
 </header>
