@@ -1,2 +1,2 @@
 # Perfil profesional
-Mi página profesional donde lo ocupo para entrevistas profesionales, incluye portafolio de proyectos
+Página web, donde expongo mi perfil profesional, desde experiencia asta habilidades.
