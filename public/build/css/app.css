@@ -992,4 +992,39 @@ p {
   --swiper-pagination-bullet-opacity: 1;
   --swiper-pagination-bullet-horizontal-gap: 2px;
 }
+
+.boton-arriba {
+  background-color: rgb(29.7916666667, 39.7222222222, 52.7083333333);
+  position: fixed;
+  bottom: 3rem;
+  right: 1.3rem;
+  border-radius: 50%;
+  visibility: hidden;
+  padding: 0.8rem;
+}
+@media (min-width: 768px) {
+  .boton-arriba {
+    bottom: 3rem;
+    right: 2rem;
+    padding: 1rem;
+  }
+}
+@media (min-width: 1024px) {
+  .boton-arriba {
+    bottom: 4rem;
+    right: 8rem;
+    padding: 2rem;
+  }
+}
+.boton-arriba i {
+  color: #FFFFFF;
+  font-size: 1.8rem;
+}
+.boton-arriba:hover {
+  cursor: pointer;
+}
+
+.visible {
+  visibility: visible;
+}
 /*# sourceMappingURL=app.css.map */
