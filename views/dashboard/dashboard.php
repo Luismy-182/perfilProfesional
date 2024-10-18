@@ -78,8 +78,8 @@
                     Me desempeñé como desarrollador web en una empresa llamada Veladoras Aramo, la cual es propiedad 
                     de un grupo industrial llamado Grupo Alze. Aquí desarrollé una aplicación web para administrar 
                     todos los proveedores de todas las empresas que pertenecen a él, entre ellas veladoras Aramo, 
-                    donde fui contratado, la aplicación se encuentra implementada y funcionando a día de hoy, a 
-                    continuación se listan algunos campos donde pude obtener experiencia laboral.
+                    donde fui contratado, la aplicación se encuentra implementada y funcionando a día de hoy, mejorando la comunicación con sus proveedores y centralizando toda la información antes dispersa en un 85%.
+                    A continuación se listan algunos campos donde pude obtener experiencia laboral mediante el desarrollo de esta aplicación.
                     </p>
             </div>
             <div class="experiencia"><!-----------grid------------->
@@ -90,7 +90,7 @@
                             <p>
                             <span class="parrafo-negrita">Aplicación completa</span>
                             Creación e implementación de una aplicación web para la administración de proveedores y 
-                            prospectos de la empresa, hecha a la medida de las necesidades.
+                            prospectos del grupo industrial, hecha a la medida de las necesidades.
                             </p>
                         </div>
                 
@@ -108,7 +108,7 @@
                     <div class="parrafo">
                         <p>
                             <span class="parrafo-negrita">Roles</span>
-                            Creación de diferentes tipos de roles entre usuarios, administradores, proveedores, y prospectos
+                            Creación de diferentes tipos de roles entre usuarios, administradores, proveedores, y prospectos mediante php
                         </p>
                     </div>
 
@@ -140,7 +140,7 @@
                     <div class="parrafo">
                         <p>
                             <span class="parrafo-negrita">Envio de emails</span>
-                            Envió de emails a proveedores desde el portal del administrador, con la librería phpMailer
+                            Envió de emails automaticos a proveedores desde el portal del administrador, con la librería phpMailer y composer
                         </p>
                     </div>
 
@@ -157,7 +157,7 @@
                     <div class="parrafo">
                         <p>
                             <span class="parrafo-negrita">Composer</span>
-                            Manejo de paquetería php mediante composer
+                            Manejo de diversas librerías php mediante composer, ejemplo mpdf para la generación  de documentación en pdf
                         </p>
                     </div>
 
@@ -172,7 +172,7 @@
                     <div class="parrafo">
                         <p>
                             <span class="parrafo-negrita">Responsive web Desing</span>
-                            Diseño Responsive Web Desing, para adaptar el contenido a diferentes pantallas
+                            Diseño Responsive Web Desing, para adaptar el contenido a diferentes pantallas mediante CSS y Bootstrap 4
                         </p>
                     </div>
 
@@ -186,7 +186,7 @@
                     <div class="parrafo">
                         <p>
                             <span class="parrafo-negrita">Hosting y dominio</span>
-                            Compra e implementación de un hosting con dominio en GoDaddy
+                            Compra e implementación de un hosting con dominio y certificado SSL en GoDaddy
                         </p>
                     </div>
 
@@ -201,7 +201,7 @@
                     <div class="parrafo">
                         <p>
                             <span class="parrafo-negrita">CPANEL</span>
-                            Administración, configuración de CPANEL y correo electrónico 
+                            Administración, configuración de CPANEL, correo electrónico, y ejecución de tareas mediante CronJobs
                         </p>
                     </div>
 
@@ -215,12 +215,12 @@
                     <div class="parrafo">
                         <p>
                             <span class="parrafo-negrita">Implementación</span>
-                            Corrección de errores entre el hosting y la aplicación web, proyecto puesto en producción 
+                            Corrección de errores entre el hosting y la aplicación web. Puesta en producción de proyectos web abandonados de la empresa.
                         </p>
                     </div>
 
                     <div class="imagen-area">
-                        <img src="build/img/alzeprod.webp" alt="imagen de una app">
+                        <img src="build/img/grupoalze.webp" alt="imagen de una app">
                     </div>
                 
                 </div><!--fin targeta-->

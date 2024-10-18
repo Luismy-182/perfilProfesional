@@ -3,16 +3,41 @@
         <div class="encabezado">
             <h2 class="text-center">Portafolio de proyectos</h2>
                 <p class="text-justify">
-                    Estos son algunos proyectos pequeños que hice de forma personal, se 
-                    pueden ajustar a las necesidades de cada usuario, o en su defecto se puede crear un proyecto 
-                    desde cero hecho a las necesidades de cada usuario.
+                    Estos son algunos proyectos que hice de forma personal (a excepción del primero, ya que fue para una empresa), en cada proyecto 
+                    se adjunta una descripción breve y enlaces al codigo fuente de mi autoría, o a la página web implementada.   
                 </p>
         </div>
 
 
     <section class="color">
             <div class="proyectos">
-               
+             
+            
+
+            <div class="proyecto">
+                    <div class="proyecto__imagen">
+                        <img src="build/img/gpoalze.png" alt="festival de rock">
+                    </div>
+
+
+                <div class="proyecto__descripcion">
+                        <h3 class="proyecto__descripcion-titulo">Portal de proveedores Grupo Alze</h3>
+                        <p>
+                        Aplicación web para administrar todos los proveedores y prospectos del grupo industrial Alze, 
+                        soporta carga de archivos, envío de emails automáticos desde el portal, roles de usuario entre 
+                        ellos: prospectos, proveedores, administradores del departamento de compras y gerente de compras 
+                        con todos los privilegios, recordatorios automáticos para los proveedores, historial de 
+                        documentación, protección capcha, validación, sanitización de datos en el servidor y creación de documentación en pdf, creado con php, css3, composer, phpmailer y javascript usando código espagueti.
+                        </p>
+                        <div class="proyecto__descripcion--botones">
+                            <a class="proyecto__descripcion-botonG" href="https://github.com/Luismy-182/gpoalze.com/tree/main/compras" target="_blank">Ver en Github</a>    
+                            <a class="proyecto__descripcion-botonP" href="https://gpoalze.com/compras/index.php" target="_blank">Ir a la aplicación</a>
+                        </div>
+                    </div>
+                </div><!---------fin proyecto---------------------->
+
+
+
             <div class="proyecto">
                     <div class="proyecto__imagen">
                         <img src="build/img/devstagram.png" alt="imagen devstagram">
@@ -29,27 +54,6 @@
                     </div>
                 </div><!---------fin proyecto---------------------->
 
-                <div class="proyecto">
-                    <div class="proyecto__imagen">
-                        <img src="build/img/gpoalze.png" alt="festival de rock">
-                    </div>
-
-
-                <div class="proyecto__descripcion">
-                        <h3 class="proyecto__descripcion-titulo">Portal de proveedores Grupo Alze</h3>
-                        <p>
-                        Aplicación web para administrar todos los proveedores y prospectos del grupo industrial Alze, 
-                        soporta carga de archivos, envío de emails automáticos desde el portal, roles de usuario entre 
-                        ellos: prospectos, proveedores, administradores del departamento de compras y gerente de compras 
-                        con todos los privilegios, recordatorios automáticos para los proveedores, historial de 
-                        documentación, protección capcha, validación, sanitización de datos en el servidor y creación de documentación en pdf, creado con php, css3, composer, phpmailer y javascript usando código espagueti, por motivos de privacidad de la empresa solo se adjunta el código fuente a Github, ya que el proyecto se encuentra implementado y en funcionamiento.
-                        </p>
-                        <div class="proyecto__descripcion--botones">
-                            <a class="proyecto__descripcion-botonG" href="https://github.com/Luismy-182/gpoalze.com/tree/main/compras" target="_blank">Ver en Github</a>    
-                            
-                        </div>
-                    </div>
-                </div><!---------fin proyecto---------------------->
 
                 <div class="proyecto">
                     <div class="proyecto__imagen">
@@ -105,8 +109,8 @@
                         <p>Página web para darle seguimiento a pacientes que fueron dados de alta, permite editar y borrar las bitácoras 
                             realizado con Javascript y TailwindCSS</p>
                         <div class="proyecto__descripcion--botones">
-                            <a class="proyecto__descripcion-botonG" href="#" target="_blank">Ver en Github</a>    
-                            <a class="proyecto__descripcion-botonP" href="#" target="_blank">Ir al proyecto</a>
+                            <a class="proyecto__descripcion-botonG" href="https://github.com/Luismy-182/seguimiento-pacientes-veterinaria" target="_blank">Ver en Github</a>    
+                            <a class="proyecto__descripcion-botonP" href="https://veterinaria-seguimientos.netlify.app/" target="_blank">Ir al proyecto</a>
                         </div>
                     </div>
                 </div><!---------fin proyecto---------------------->
@@ -130,6 +134,22 @@
                 </div><!---------fin proyecto---------------------->
 
 
+                <div class="proyecto">
+                    <div class="proyecto__imagen">
+                        <img src="build/img/rockfestival.webp" alt="PodcastFM imagen">
+                    </div>
+
+                    <div class="proyecto__descripcion">
+                        <h3 class="proyecto__descripcion-titulo">TechNoir And EDM festival</h3>
+                        <p>Página web de un festival de música Tecno, incluye animaciones con css, desarrollado con SASS, Gulp, y Javascript</p>
+                        <div class="proyecto__descripcion--botones">
+                            <a class="proyecto__descripcion-botonG" href="https://github.com/Luismy-182/TechNoir-and-EDM-festival" target="_blank">Ver en Github</a>    
+                            <a class="proyecto__descripcion-botonP" href="https://technoir-and-edm-festival.netlify.app/" target="_blank">Ir al proyecto</a>
+                        </div>
+                    </div>
+                </div><!---------fin proyecto---------------------->
+
+
    
 
 
@@ -140,7 +160,7 @@
 
                     <div class="proyecto__descripcion">
                         <h3 class="proyecto__descripcion-titulo">PodcastFM - página web de pódcast</h3>
-                        <p>Página web de PodcastFM donde se anuncia sus planes y precios, creado con HTML5, Bootstrap 5, SASS, Gulp y Nodejs</p>
+                        <p>Página web de PodcastFM donde se anuncia sus planes y precios, creado con HTML5, Bootstrap 5, SASS, Gulp</p>
                         <div class="proyecto__descripcion--botones">
                             <a class="proyecto__descripcion-botonG" href="https://github.com/Luismy-182/podcastfm" target="_blank">Ver en Github</a>    
                             <a class="proyecto__descripcion-botonP" href="https://podcastfm-mike.netlify.app/" target="_blank">Ir al proyecto</a>

@@ -517,7 +517,7 @@ p {
 
 /***************************Experiencia*****************************/
 .bg-azul {
-  background-color: #2855ee;
+  background-color: rgb(61.7798507463, 140.3246268657, 237.7201492537);
 }
 .bg-azul .empresa {
   text-align: center;
@@ -609,7 +609,7 @@ p {
   }
 }
 .bg-azul .experiencia .targeta .imagen-area img {
-  aspect-ratio: 1/1;
+  height: 30rem;
   object-fit: cover;
 }
 

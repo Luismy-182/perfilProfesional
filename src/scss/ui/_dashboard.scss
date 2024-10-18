@@ -82,7 +82,9 @@
 
 /***************************Experiencia*****************************/
 .bg-azul{
-    background-color: v.$azul;
+    background-color: darken(v.$azul, 15%);
+    //background-color: v.$azul;
+ 
 
     .empresa{
         text-align: center;
@@ -179,7 +181,8 @@
                     margin-top: 5rem;
                 }
                img{
-                aspect-ratio: 1/1;
+                //aspect-ratio: 1/1;
+                height: 30rem;
                 object-fit:cover;
                }
                 
