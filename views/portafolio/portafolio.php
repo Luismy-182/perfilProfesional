@@ -4,7 +4,7 @@
             <h2 class="text-center">Portafolio de proyectos</h2>
                 <p class="text-justify">
                     Estos son algunos proyectos que hice de forma personal (a excepción del primero, ya que fue para una empresa), en cada proyecto 
-                    se adjunta una descripción breve y enlaces al codigo fuente de mi autoría, o a la página web implementada.   
+                    se adjunta una descripción breve y enlaces al codigo fuente de mi autoría, o página web implementada.   
                 </p>
         </div>
 
@@ -169,9 +169,10 @@
                 </div><!---------fin proyecto---------------------->
 
 
-
             </div>
         </section>
 </main>
+<div class="boton-arriba" id="ir-arriba"><i class="fa-solid fa-chevron-up"></i></div>
 
 <?php require_once __DIR__.'/../includes/redes.php'; ?>
+

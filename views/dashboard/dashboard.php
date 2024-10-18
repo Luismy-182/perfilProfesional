@@ -13,10 +13,9 @@
             <!-- Additional required wrapper -->
             <div class="swiper-wrapper">
                 <!-- Slides -->
-            
+                <div class="swiper-slide"><img src="build/img/gpoalze.webp" alt="Gpoalze aplicacion web"></div>
                 <div class="swiper-slide"><img src="build/img/podcastfm.webp" alt="imagen de rock festival"></div>
                 <div class="swiper-slide"><img src="build/img/appsalon_mvc.webp" alt="imagen de rock festival"></div>
-                <div class="swiper-slide"><img src="build/img/gpoalze.webp" alt="imagen de rock festival"></div>
                 <div class="swiper-slide"><img src="build/img/devstagram.webp" alt="imagen de rock festival"></div>
                 <div class="swiper-slide"><img src="build/img/uptask_mvc.webp" alt="imagen de rock festival"></div>
                 <div class="swiper-slide"><img src="build/img/cursos.webp" alt="imagen de rock festival"></div>
@@ -472,5 +471,5 @@
 
         </div>
     </section>
-  <div class="boton-arriba " id="ir-arriba"><i class="fa-solid fa-chevron-up"></i></div>
+  <div class="boton-arriba" id="ir-arriba"><i class="fa-solid fa-chevron-up"></i></div>
 
