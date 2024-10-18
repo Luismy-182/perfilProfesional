@@ -1,3 +1,4 @@
+            
                     /*************menu mobil******************************/
 
 //seleccionamos la hamburguesa que espere un click
@@ -40,11 +41,11 @@ function mostrarMenu(e){
 
 
 /*************************Navegacion y redireccionamiento******************************** */
-const experiencia=document.querySelector('#nav-exp') ; //seleccionamos un id de la navegacion del header
-const habilidades=document.querySelector('#nav-hab') ;
-const aptitudes=document.querySelector('#nav-apt') ;
-const educacion=document.querySelector('#nav-edu') ;
-const contacto=document.querySelector('#nav-con') ;
+const experiencia=document.querySelector('.nav-exp') ; //seleccionamos un id de la navegacion del header
+const habilidades=document.querySelector('.nav-hab') ;
+const aptitudes=document.querySelector('.nav-apt') ;
+const educacion=document.querySelector('.nav-edu') ;
+const contacto=document.querySelector('.nav-con') ;
 const urlExp ='/#experiencia'; //asignamos la direccion que tomara despues del location.href localhost:3000+/#experiencia
 const urlHab ='/#habilidades';
 const urlApt ='/#aptitudes';
@@ -81,7 +82,7 @@ educacion.addEventListener('click', e =>{
 contacto.addEventListener('click', e =>{
     e.preventDefault();
     if(e.target.textContent===e.target.textContent){
-        
+        e.target.getAttribute('href');
         window.location.href=urlCon;
     }
     });
@@ -135,36 +136,42 @@ const swiper = new Swiper('.swiper', {
 
 
   /************************Botón de scrooll hacia arriba*****************************/
-window.addEventListener('scroll', ()=>{
-    const scroll=window.scrollY;//este objeto nos da la unicacion de dode estamos en scroll
-    const irArriba=document.querySelector('#ir-arriba');//seleccionamos nuestro id donde esta el boton del html
-    const boton=irArriba;//lo asignamos a boton para mas simplesa
-  1
+ 
     
-    if(scroll>=3000){ //si estamos mas abajo de 3000px entonces
-        boton.classList.add('visible'); //agregamos la clase visible para mostrar el boton de regresar
-
-        return
-      }else{
-        boton.classList.remove('visible'); //si no se lo quitamos
+        window.addEventListener('scroll', ()=>{
+        const scroll=window.scrollY;//este objeto nos da la unicacion de dode estamos en scroll
+        const irArriba=document.querySelector('#ir-arriba');//seleccionamos nuestro id donde esta el boton del html
+        const boton=irArriba;//lo asignamos a boton para mas simplesa
+    
         
-      }
+        if(scroll>=3000){ //si estamos mas abajo de 3000px entonces
+            boton.classList.add('visible'); //agregamos la clase visible para mostrar el boton de regresar
+
+            return
+        }else{
+            boton.classList.remove('visible'); //si no se lo quitamos
+            
+        }
+        
+        irArriba.onclick = () => { //si al dan click en el boton entonces
+            //
+            window.scroll({
+                top:0, //regresa ala posicion o del documento
+                behavior:"smooth" //y aslo con una trasición suave
+            });
+            
+            
+        }
+            
+        });//fun funcion scroll en el documento
+
     
-    irArriba.onclick = () => { //si al dan click en el boton entonces
-          //
-          window.scroll({
-            top:0, //regresa ala posicion o del documento
-            behavior:"smooth" //y aslo con una trasición suave
-          });
-          
-          
-    }
-          
-});//fun funcion scroll en el documento
         
     
    
     
 
+/*********************************SCROLLL SUAVE  ****************/                    
 
+     
   
