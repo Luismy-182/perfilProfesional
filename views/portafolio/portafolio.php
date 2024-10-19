@@ -3,8 +3,8 @@
         <div class="encabezado">
             <h2 class="text-center">Portafolio de proyectos</h2>
                 <p class="text-justify">
-                    Estos son algunos proyectos que hice de forma personal (a excepción del primero, ya que fue para una empresa), en cada proyecto 
-                    se adjunta una descripción breve y enlaces al codigo fuente de mi autoría, o página web implementada.   
+                    Estos son algunos proyectos que hice de forma personal (a excepción del primero, ya que fue para una empresa). En cada proyecto 
+                    se adjunta una descripción breve y enlaces al código fuente de mi autoría, o página web implementada.   
                 </p>
         </div>
 
@@ -16,7 +16,7 @@
 
             <div class="proyecto">
                     <div class="proyecto__imagen">
-                        <img src="build/img/gpoalze.png" alt="festival de rock">
+                        <img width="20" height="30" loading="lazy" src="build/img/gpoalze.webp" alt="festival de rock">
                     </div>
 
 
@@ -40,7 +40,7 @@
 
             <div class="proyecto">
                     <div class="proyecto__imagen">
-                        <img src="build/img/devstagram.png" alt="imagen devstagram">
+                        <img width="20" height="30" loading="lazy" src="build/img/devstagram.webp" alt="imagen devstagram">
                     </div>
 
                 <div class="proyecto__descripcion">
@@ -57,7 +57,7 @@
 
                 <div class="proyecto">
                     <div class="proyecto__imagen">
-                        <img src="build/img/uptask_mvc.png" alt="festival de rock">
+                        <img width="20" height="30" loading="lazy" src="build/img/uptask_mvc.webp" alt="festival de rock">
                     </div>
 
 
@@ -79,7 +79,7 @@
 
                 <div class="proyecto">
                     <div class="proyecto__imagen">
-                        <img src="build/img/appsalon_mvc.png" alt="aplicacion de appsalon">
+                        <img width="20" height="30" loading="lazy" src="build/img/appsalon_mvc.webp" alt="aplicacion de appsalon">
                     </div>
 
                     <div class="proyecto__descripcion">
@@ -101,7 +101,7 @@
 
                 <div class="proyecto">
                     <div class="proyecto__imagen">
-                        <img src="build/img/veterinaria.png" alt="">
+                        <img width="20" height="30" loading="lazy" src="build/img/veterinaria.webp" alt="">
                     </div>
 
                     <div class="proyecto__descripcion">
@@ -118,7 +118,7 @@
 
                 <div class="proyecto">
                     <div class="proyecto__imagen">
-                        <img src="build/img/cursos.png" alt="">
+                        <img width="20" height="30" loading="lazy" src="build/img/cursos.webp" alt="">
                     </div>
 
                     <div class="proyecto__descripcion">
@@ -136,7 +136,7 @@
 
                 <div class="proyecto">
                     <div class="proyecto__imagen">
-                        <img src="build/img/rockfestival.webp" alt="PodcastFM imagen">
+                        <img width="20" height="30" loading="lazy" src="build/img/rockfestival.webp" alt="PodcastFM imagen">
                     </div>
 
                     <div class="proyecto__descripcion">
@@ -155,7 +155,7 @@
 
                 <div class="proyecto">
                     <div class="proyecto__imagen">
-                        <img src="build/img/podcastfm.webp" alt="PodcastFM imagen">
+                        <img width="20" height="30" loading="lazy" src="build/img/podcastfm.webp" alt="PodcastFM imagen">
                     </div>
 
                     <div class="proyecto__descripcion">

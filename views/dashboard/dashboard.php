@@ -176,7 +176,7 @@
                     </div>
 
                     <div class="imagen-area">
-                        <img src="build/img/alzer.jpeg" alt="imagen de una app">
+                        <img src="build/img/alzem.webp" alt="imagen de una app">
                     </div>
                 
                 </div><!--fin targeta-->
