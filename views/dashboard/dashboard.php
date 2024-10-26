@@ -17,7 +17,10 @@
                 <div class="swiper-slide"><img src="build/img/podcastfm.webp" alt="imagen de rock festival"></div>
                 <div class="swiper-slide"><img src="build/img/appsalon_mvc.webp" alt="imagen de rock festival"></div>
                 <div class="swiper-slide"><img src="build/img/devstagram.webp" alt="imagen de rock festival"></div>
+                <div class="swiper-slide"><img src="build/img/cotizador.webp" alt="imagen de rock festival"></div>
                 <div class="swiper-slide"><img src="build/img/uptask_mvc.webp" alt="imagen de rock festival"></div>
+                <div class="swiper-slide"><img src="build/img/recetario.webp" alt="imagen de rock festival"></div>
+               
                 <div class="swiper-slide"><img src="build/img/cursos.webp" alt="imagen de rock festival"></div>
                 <div class="swiper-slide"><img src="build/img/veterinaria.webp" alt="imagen de rock festival"></div>
                 <div class="swiper-slide"><img src="build/img/rockfestival.webp" alt="imagen de rock festival"></div>

@@ -98,6 +98,45 @@
                 </div><!---------fin proyecto---------------------->
 
 
+                <div class="proyecto">
+                    <div class="proyecto__imagen">
+                        <img width="20" height="30" loading="lazy" src="build/img/recetario.webp" alt="PodcastFM imagen">
+                    </div>
+
+                    <div class="proyecto__descripcion">
+                        <h3 class="proyecto__descripcion-titulo">Buscador de recetas</h3>
+                        <p>Aplicación web para buscar más de 100 recetas de cocina, separado por diferentes categorías, con la posibilidad de agregar a favoritos las de tu interés, creado con javascript, consumiendo una API con fetchApi (antes AJAX) con async await, Bootstrap 5</p>
+                        <div class="proyecto__descripcion--botones">
+                            <a class="proyecto__descripcion-botonG" href="https://github.com/Luismy-182/Recetario-fetchApi" target="_blank">Ver en Github</a>    
+                            <a class="proyecto__descripcion-botonP" href="https://recetario-fetchapi.netlify.app/" target="_blank">Ir al proyecto</a>
+                        </div>
+                    </div>
+                </div><!---------fin proyecto---------------------->
+                
+                
+                
+                
+                
+                <div class="proyecto">
+                    <div class="proyecto__imagen">
+                        <img width="20" height="30" loading="lazy" src="build/img/cotizador.webp" alt="PodcastFM imagen">
+                    </div>
+
+                    <div class="proyecto__descripcion">
+                        <h3 class="proyecto__descripcion-titulo">Cotizador de criptomonedas</h3>
+                        <p>Aplicación web para cotizar el precio de las 10 criptomonedas mas importantes, permite la divisa de diferentes países. Creado con javascript, consumiendo una API con fetchApi (antes AJAX), skeletons y async await</p>
+                        <div class="proyecto__descripcion--botones">
+                            <a class="proyecto__descripcion-botonG" href="https://github.com/Luismy-182/CotizadorCriptomonedas" target="_blank">Ver en Github</a>    
+                            <a class="proyecto__descripcion-botonP" href="https://criptomonedas-fetchapi.netlify.app/" target="_blank">Ir al proyecto</a>
+                        </div>
+                    </div>
+                </div><!---------fin proyecto---------------------->
+
+
+
+
+
+
 
                 <div class="proyecto">
                     <div class="proyecto__imagen">
