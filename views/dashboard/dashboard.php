@@ -175,8 +175,8 @@
                 <div class="targeta">
                     <div class="parrafo">
                         <p>
-                            <span class="parrafo-negrita">Responsive web Desing</span>
-                            Diseño Responsive Web Desing, para adaptar el contenido a diferentes pantallas mediante CSS y Bootstrap 4
+                            <span class="parrafo-negrita">Responsive web Design</span>
+                            Diseño Responsive Web Design, para adaptar el contenido a diferentes pantallas mediante CSS y Bootstrap 4
                         </p>
                     </div>
 
@@ -289,6 +289,49 @@
 
     <div class="seccion-habilidades">
         <div class="habilidades">
+        <div class="habilidad">
+                    <div class="icono">
+                        <img src="build/img/laravel.svg" alt="imagen de laravel">
+                    </div>
+                    <div class="parrafo">
+                        <p>Laravel 9</p>
+                    </div>
+                </div>
+
+                <div class="habilidad">
+                    <div class="icono">
+                        <img src="build/img/php.svg" alt="imagen de php">
+                    </div>
+                    <div class="parrafo">
+                        <p>PHP, JS y FetchApi (antes Ajax)</p>
+                    </div>
+                </div>
+
+
+
+
+                <div class="habilidad">
+                    <div class="icono">
+                        <img src="build/img/bootstrap.svg" alt="Imagen bootstrap">
+                    </div>
+                    <div class="parrafo">
+                        <p>Bootstrap 5</p>
+                    </div>
+                </div>
+
+
+                <div class="habilidad">
+                    <div class="icono">
+                        <img src="build/img/tailwind.webp" alt="imagen tailwind">
+                    </div>
+                    <div class="parrafo">
+                        <p>TailwindCSS</p>
+                    </div>
+                </div>
+
+
+
+
                 <div class="habilidad">
                     <div class="icono">
                         <img src="build/img/estructura.webp" alt="Model view controller">
@@ -321,45 +364,7 @@
                 </div>
 
 
-
-                <div class="habilidad">
-                    <div class="icono">
-                        <img src="build/img/php.svg" alt="imagen de php">
-                    </div>
-                    <div class="parrafo">
-                        <p>PHP, JS y FetchApi (antes Ajax)</p>
-                    </div>
-                </div>
-
-
-                <div class="habilidad">
-                    <div class="icono">
-                        <img src="build/img/laravel.svg" alt="imagen de laravel">
-                    </div>
-                    <div class="parrafo">
-                        <p>Laravel 9</p>
-                    </div>
-                </div>
-
-
-                <div class="habilidad">
-                    <div class="icono">
-                        <img src="build/img/bootstrap.svg" alt="Imagen bootstrap">
-                    </div>
-                    <div class="parrafo">
-                        <p>Bootstrap 5</p>
-                    </div>
-                </div>
-
-
-                <div class="habilidad">
-                    <div class="icono">
-                        <img src="build/img/tailwind.webp" alt="imagen tailwind">
-                    </div>
-                    <div class="parrafo">
-                        <p>TailwindCSS</p>
-                    </div>
-                </div>
+                
 
 
                 <div class="habilidad">
@@ -367,7 +372,7 @@
                         <img src="build/img/diseno.webp" alt="Imagen diseño">
                     </div>
                     <div class="parrafo">
-                        <p>Responsive Web Desing</p>
+                        <p>Responsive Web Design</p>
                     </div>
                 </div>
 
@@ -469,7 +474,7 @@
             <h3 class="titulo-ligero text-white text-center">Contacto</h3>
             <p class="text-white"><i class="fa-solid fa-location-dot" style="color: #a51d2d;"></i>Teolocholco, Tlaxcala.</p>
             <p class="text-white"><i class="fa-solid fa-envelope" style="color: #3584e4;"></i>miguel.buny@gmail.com</p>
-            <p class="text-white"><i class="fa-solid fa-mobile-screen-button" style="color: #6781bb;"></i>2461735434</p>
+            <p class="text-white"><i class="fa-solid fa-mobile-screen-button" style="color: #6781bb;"></i>55 33243707</p>
             </div>
 
             <?php require_once __DIR__ .'/../includes/redes.php'; ?>

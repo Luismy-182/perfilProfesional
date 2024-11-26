@@ -3,8 +3,7 @@
         <div class="encabezado">
             <h2 class="text-center">Portafolio de proyectos</h2>
                 <p class="text-justify">
-                    Estos son algunos proyectos que hice de forma personal (a excepción del primero, ya que fue para una empresa). En cada proyecto 
-                    se adjunta una descripción breve y enlaces al código fuente de mi autoría, o página web implementada.   
+                Estos son algunos proyectos que realìcè de forma personal. (El primero fue implementado en la empresa Veladoras Aramo donde trabajè). En cada proyecto se adjunta una descripción breve y enlaces al código fuente de mi autoría, o página web implementada, la mayorìa es MVC 
                 </p>
         </div>
 
