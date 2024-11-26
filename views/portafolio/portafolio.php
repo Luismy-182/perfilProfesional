@@ -37,6 +37,50 @@
                 </div><!---------fin proyecto---------------------->
 
 
+                <div class="proyecto">
+                    <div class="proyecto__imagen">
+                        <img width="20" height="30" loading="lazy" src="build/img/devjobs.webp" alt="PodcastFM imagen">
+                    </div>
+
+                    <div class="proyecto__descripcion">
+                        <h3 class="proyecto__descripcion-titulo">DevJobs plataforma de empleo para desarrolladores web</h3>
+                        <p>
+                        DevJobs es una plataforma de empleo enfocada a reclutar desarrolladores, similar a computrabajo, como usuario te permite buscar empleos, postularte, conocer los requerimientos, además de poder filtrar por salario, enfoque de desarrollo, y poder cargar tu CV, como administrador te permite crear ofertas de empleo, recibir notificaciones en tiempo real, ver los postulantes a tus ofertas, editar y eliminar las ofertas, administrar la documentación del usuario y cada administrador solo puede ver sus propias ofertas que el mismo ha creado, desarrollado con Laravel 9, Breeze, Livewire 3, PHPmailer y Tailwindcss.<br> Credenciales de acceso:
+                            admin@admin.com user@user.com user@user1.com user2@user.com user3@user.com y password para todas las cuentas: tacosalto
+                        
+                        </p>
+                        <div class="proyecto__descripcion--botones">
+                            <a class="proyecto__descripcion-botonG" href="https://github.com/Luismy-182/DevJobs" target="_blank">Ver en Github</a>    
+                            <a class="proyecto__descripcion-botonP" href="https://debjobs-182.osk.dom.my.id/" target="_blank">Ir al proyecto</a>
+                        </div>
+                    </div>
+                </div><!---------fin proyecto---------------------->
+
+
+
+
+
+
+
+
+                <div class="proyecto">
+                    <div class="proyecto__imagen">
+                        <img width="20" height="30" loading="lazy" src="build/img/freshcoffe.webp" alt="PodcastFM imagen">
+                    </div>
+
+                    <div class="proyecto__descripcion">
+                        <h3 class="proyecto__descripcion-titulo">Fresh Coffe API REST de repostería</h3>
+                        <p>
+                        Fresh coffe es una API-Rest de una reposteria, permite al usuario seleccionar su postre favorito por medio de un amplio catálogo de postres y bebidas, también le permite conocer el detalle de sus productos agregados, como el precio unitario, cantidad y total. Al administrador le permite conocer las órdenes de cada cliente, saber el precio y cantidades de  los productos a preparar, en dado caso que no se tenga los ingredientes necesarios puede administrar todos los productos y agotar un producto del menú que visualiza el usuario, y todos estos comportamientos en tiempo real sin recargar la página. El backend y el frontend se encuentran separados, en el backend tenemos a Laravel 9 como API con el ORM Eloquent sirviendo y validando las peticiones, el frontend está creado con ReactJs  usando Hooks, Context-API, Routed-dom, Axios y components
+                        </p>
+                        <div class="proyecto__descripcion--botones">
+                            <a class="proyecto__descripcion-botonG" href="https://github.com/Luismy-182/Laravel-FreshCoffe" target="_blank">Backend en Github</a>    
+                            <a class="proyecto__descripcion-botonG" href="https://github.com/Luismy-182/React-FreshCoffe" target="_blank">Frontend en GitHub</a>
+                        </div>
+                    </div>
+                </div><!---------fin proyecto---------------------->    
+
+
 
             <div class="proyecto">
                     <div class="proyecto__imagen">
@@ -45,8 +89,8 @@
 
                 <div class="proyecto__descripcion">
                         <h3 class="proyecto__descripcion-titulo">Devstagram - un clon de instagram pero enfocado a programadores</h3>
-                        <p>Una red social, clon de instagram, permite publicar, comentar, administrar y seguir a otros desarrolladores y enterarte de su vida, creado en Laravel 9 con Tailwindcss, livewire y vite usando MVC, POO y el ORM Eloquent para establecer relaciones,
-                            sin duda el proyecto que más me gustó</p>
+                        <p>Una red social, clon de instagram, permite publicar, comentar, administrar y seguir a otros desarrolladores y enterarte de su vida, creado en Laravel 9 con Tailwindcss, Livewire, blade y vite usando el patron MVC, POO y el ORM Eloquent para establecer relaciones,
+                            sin duda el proyecto que más me gustó. <br> Credenciales de acceso: user@user.com user1@user.com user2@user.com, password para todas: tacosalto-182</p>
                         <div class="proyecto__descripcion--botones">
                             <a class="proyecto__descripcion-botonG" href="https://github.com/Luismy-182/Devstagram" target="_blank">Ver en Github</a>    
                             <a class="proyecto__descripcion-botonP" href="https://wabreca.sao.dom.my.id/login" target="_blank">Ir al proyecto</a>
@@ -71,7 +115,7 @@
                         </p>
                         <div class="proyecto__descripcion--botones">
                             <a class="proyecto__descripcion-botonG" href="https://github.com/Luismy-182/UpTask_mvc" target="_blank">Ver en Github</a>    
-                            <a class="proyecto__descripcion-botonP" href="https://riwfaka.sgp.dom.my.id/" target="_blank">Ir al proyecto</a>
+                            
                         </div>
                     </div>
                 </div><!---------fin proyecto---------------------->
@@ -206,6 +250,12 @@
                         </div>
                     </div>
                 </div><!---------fin proyecto---------------------->
+
+
+
+
+
+             
 
 
             </div>
