@@ -1,0 +1,15 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.alerta{
+   
+    padding:1rem;
+    
+}
+.error{
+    color: v.$rojo;
+}
+
+.exito{
+    color:v.$verde;
+}

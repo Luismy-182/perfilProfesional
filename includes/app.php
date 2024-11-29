@@ -5,7 +5,7 @@ use Model\ActiveRecord;
 require __DIR__ . '/../vendor/autoload.php';
 
 
-/* comentamos para pagina estatica
+
 // Añadir Dotenv
 $dotenv = Dotenv::createImmutable(__DIR__);
 $dotenv->safeLoad();
@@ -17,4 +17,3 @@ require 'database.php';
 ActiveRecord::setDB($db);
 
 
-*/

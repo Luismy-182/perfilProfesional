@@ -1,0 +1,35 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.contenedor-formulario{
+    display: grid;
+    height: 100vh;
+    place-content: center;
+
+
+
+   .formulario{
+    margin-top: 1rem;
+    padding: 2rem;
+    
+
+    &__campo{
+        
+        label{
+            margin: 0;
+            display: flex;
+            padding: 1rem 0 1rem 0;
+        }
+        input{
+           padding: .5rem;
+        }
+    }
+    
+    &__submit{
+        margin-top: 1.5rem;
+        @include m.boton(v.$azul, v.$blanco);
+    }
+
+
+   }
+}

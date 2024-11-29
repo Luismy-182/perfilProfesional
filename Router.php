@@ -48,6 +48,26 @@ class Router
 
         $contenido = ob_get_clean(); // Limpia el Buffer
 
-        include_once __DIR__ . '/views/layout.php';
+        //creando un layouth para diferentes rutas
+        $url_actual = $_SERVER['PATH_INFO'] ?? '/';
+
+        //si la url lleva un /login entonces renderisa con un layout diferente
+        if(str_contains($url_actual, '/login' )){
+            include_once __DIR__ . '/views/login-layout.php';
+            return;
+            
+        }
+        if(str_contains($url_actual, '/admin' )){
+            
+            include_once __DIR__ . '/views/admin-layout.php';
+            
+        }else{
+            include_once __DIR__ . '/views/layout.php';
+            
+        }
+
+        
+
+
     }
 }
