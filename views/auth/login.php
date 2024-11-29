@@ -1,10 +1,12 @@
 
         
 <div class="contenedor-formulario">
+    <form method="POST" class="formulario">
 
 
-        <form  method="post" class="formulario">
-        <h2 class="text-center">Inicia sesión</h2>
+
+        <h2 class="text-center"><?php echo $titulo ?></h2>
+        <?php require_once __DIR__ .'/../templates/alertas.php' ?>
             <div class="formulario__campo">
                 <label for="usuario">Usuario</label>
                 <input type="text" id="usuario" name="usuario" placeholder="Introduce tu usuario">

@@ -1146,6 +1146,10 @@ p {
 .contenedor-formulario .formulario {
   margin-top: 1rem;
   padding: 2rem;
+  box-shadow: 1px 1px 3px;
+}
+.contenedor-formulario .formulario__campo {
+  padding: 0.5rem;
 }
 .contenedor-formulario .formulario__campo label {
   margin: 0;

@@ -6,13 +6,8 @@ use MVC\Router;
 class AdminController{
 
     public static function index(Router $router){
-
-
-
-
-        
+        isAuth();
         $router->render('admin/dashboard/index',[
-            
             'titulo'=>'Proyectos'
         ]);
     }

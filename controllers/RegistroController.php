@@ -18,30 +18,25 @@ class RegistroController{
    
         if(empty($alertas)){
             //comprueba si ya existia antes el usuario
-            $resultado=$usuario->existeUsuario();
-            if($resultado->num_rows){
-                $alertas=Usuario::getAlertas();//cuando se usa con toda la clase trae todas las alertas del modelo
-            }else{
-                 //si nos hay alertas hasheamos password
-                $usuario->hashPassword();
-                $usuario->guardar();
-                $alertas=$usuario->setAlerta('exito','Registrado correctamente.');
-                sleep(2);
-                header('Location:/login');
-            }
-
-
-           
-        }
-
+                $resultado=$usuario->existeUsuario();
+                if($resultado->num_rows){
+                    $alertas=Usuario::getAlertas();//cuando se usa con toda la clase trae todas las alertas del modelo
+                    }else{
+                    //si nos hay alertas hasheamos password
+                    $usuario->hashPassword();
+                    $usuario->guardar();
+                    $alertas=$usuario->setAlerta('exito','Registrado correctamente.');
+                    sleep(2);
+                    header('Location:/login');
+                        }
+                    }
+                }//fin post
+        
             //recupera las alertas que se crearon
-            $alertas=$usuario->getAlertas();
+            $alertas=Usuario::getAlertas();
             $router->render('auth/registro',[
                 'titulo'=>'Registro',
                 'alertas'=>$alertas
             ]);
-
-        }
-
     }
 }

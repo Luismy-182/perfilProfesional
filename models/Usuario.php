@@ -101,5 +101,34 @@ class Usuario extends ActiveRecord {
         return $resultado;
     }
 
+
+    public function existeLoggin(){
+         //creando la query
+         $query="SELECT usuario FROM ".self::$tabla." WHERE  usuario = '$this->usuario' ";
+       
+         //comprobando con sql
+         $resultado=self::$db->query($query); //0- no lo encontro, 1- si lo encontro
+ 
+         if(!$resultado->num_rows){
+             self::$alertas['error'][]='Lo sentimos el usuario no esta registrado';
+            
+         }   
+ 
+         return $resultado;
+    }
+
+
+    public function comprobarPassword($password){
+        $resultado=password_verify($password, $this->password);
+        //seteamos alerta
+        if(!$resultado){
+            self::$alertas['error'][]='Error, el password es incorrecto';
+            return;
+        }else{
+            return true;
+        }
+
+    }   
+
    
 }

@@ -26,6 +26,7 @@ $router->get('/login/registro',[RegistroController::class,'index']);
 $router->post('/login/registro',[RegistroController::class,'index']);
 //login
 $router->get('/login',[LoginController::class,'index']);
+$router->post('/login',[LoginController::class,'index']);
 //Admin
 $router->get('/admin',[AdminController::class,'index']);
 $router->get('/admin/crear',[AdminController::class,'crear']);

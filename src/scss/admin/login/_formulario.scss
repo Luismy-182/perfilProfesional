@@ -11,10 +11,11 @@
    .formulario{
     margin-top: 1rem;
     padding: 2rem;
+    box-shadow: 1px 1px 3px;
     
 
     &__campo{
-        
+        padding: .5rem;
         label{
             margin: 0;
             display: flex;
@@ -22,6 +23,7 @@
         }
         input{
            padding: .5rem;
+           
         }
     }
     
