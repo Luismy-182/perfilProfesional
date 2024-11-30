@@ -7,6 +7,7 @@ namespace Composer\Autoload;
 class ComposerStaticInita336c56755e9ee5ce9f24d5f51056c7e
 {
     public static $files = array (
+        '7b11c4dc42b3b3023073cb14e519683c' => __DIR__ . '/..' . '/ralouphie/getallheaders/src/getallheaders.php',
         '320cde22f66dd4f5d3fd621d3e88b98f' => __DIR__ . '/..' . '/symfony/polyfill-ctype/bootstrap.php',
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
         'a4a119a56e50fbb293281d9a48007e0e' => __DIR__ . '/..' . '/symfony/polyfill-php80/bootstrap.php',
@@ -21,6 +22,7 @@ class ComposerStaticInita336c56755e9ee5ce9f24d5f51056c7e
         ),
         'P' => 
         array (
+            'Psr\\Http\\Message\\' => 17,
             'PhpOption\\' => 10,
             'PHPMailer\\PHPMailer\\' => 20,
         ),
@@ -32,10 +34,10 @@ class ComposerStaticInita336c56755e9ee5ce9f24d5f51056c7e
         'I' => 
         array (
             'Intervention\\Image\\' => 19,
-            'Intervention\\Gif\\' => 17,
         ),
         'G' => 
         array (
+            'GuzzleHttp\\Psr7\\' => 16,
             'GrahamCampbell\\ResultType\\' => 26,
         ),
         'D' => 
@@ -62,6 +64,11 @@ class ComposerStaticInita336c56755e9ee5ce9f24d5f51056c7e
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-ctype',
         ),
+        'Psr\\Http\\Message\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/psr/http-message/src',
+            1 => __DIR__ . '/..' . '/psr/http-factory/src',
+        ),
         'PhpOption\\' => 
         array (
             0 => __DIR__ . '/..' . '/phpoption/phpoption/src/PhpOption',
@@ -80,11 +87,11 @@ class ComposerStaticInita336c56755e9ee5ce9f24d5f51056c7e
         ),
         'Intervention\\Image\\' => 
         array (
-            0 => __DIR__ . '/..' . '/intervention/image/src',
+            0 => __DIR__ . '/..' . '/intervention/image/src/Intervention/Image',
         ),
-        'Intervention\\Gif\\' => 
+        'GuzzleHttp\\Psr7\\' => 
         array (
-            0 => __DIR__ . '/..' . '/intervention/gif/src',
+            0 => __DIR__ . '/..' . '/guzzlehttp/psr7/src',
         ),
         'GrahamCampbell\\ResultType\\' => 
         array (

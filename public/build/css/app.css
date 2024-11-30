@@ -1079,6 +1079,7 @@ p {
 .dashboard .contenido {
   flex: 1;
   padding: 2rem;
+  overflow: scroll;
 }
 .dashboard .contenido h1 {
   padding-bottom: 2rem;
@@ -1118,7 +1119,7 @@ p {
 }
 .dashboard .container-form .formulario__campo .text-area {
   width: 100%;
-  height: 25rem;
+  height: 20rem;
 }
 .dashboard .container-form .formulario__submit {
   background-color: #3E8CEE;

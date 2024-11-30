@@ -30,6 +30,7 @@ $router->post('/login',[LoginController::class,'index']);
 //Admin
 $router->get('/admin',[AdminController::class,'index']);
 $router->get('/admin/crear',[AdminController::class,'crear']);
+$router->post('/admin/crear',[AdminController::class,'crear']);
 
 
 

@@ -19,6 +19,15 @@
             </div>
 
             <div class="formulario__campo">
+                <label for="importancia">Importancia</label>
+                <select name="importancia" id="importancia">
+                    <option value="">-- Selecciona la importancia del proyecto --</option>
+                    <option value="0">Prioridad normal</option>
+                    <option value="1">Muy importante</option>
+                </select>
+            </div>
+
+            <div class="formulario__campo">
                 <label for="usuario">Imagen</label>
                 <input type="file" name="imagen" id="imagen" accept="image/*">
                 

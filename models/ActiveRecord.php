@@ -81,7 +81,7 @@ class ActiveRecord {
         return $sanitizado;
     }
 
-    // Sincroniza BD con Objetos en memoria
+    // Sincroniza BD con Objetos en memoria, el post lo combierte a objeto compatible a la bd
     public function sincronizar($args=[]) { 
         foreach($args as $key => $value) {
           if(property_exists($this, $key) && !is_null($value)) {
