@@ -29,8 +29,15 @@ $router->get('/login',[LoginController::class,'index']);
 $router->post('/login',[LoginController::class,'index']);
 //Admin
 $router->get('/admin',[AdminController::class,'index']);
+//admin--crud
 $router->get('/admin/crear',[AdminController::class,'crear']);
 $router->post('/admin/crear',[AdminController::class,'crear']);
+$router->get('/admin/proyecto',[AdminController::class,'proyecto']);
+
+
+$router->get('/admin/editar',[AdminController::class,'editar']);
+$router->post('/admin/editar',[AdminController::class,'editar']);
+$router->post('/admin/eliminar',[AdminController::class,'eliminar']);
 
 
 
