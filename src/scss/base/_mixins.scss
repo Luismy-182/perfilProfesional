@@ -40,6 +40,24 @@
         cursor: pointer;
     }
 }
+@mixin boton-xs($bgColor, $colorTexto) {
+    background-color: $bgColor;
+    padding: .7rem;
+    color: $colorTexto;
+    font-size: 1.4rem;
+    font-weight: 700;
+    border: none;
+    transition-property: background-color;
+    transition-duration: .3s;
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+
+    &:hover {
+        background-color: darken( $bgColor, 10% );
+        cursor: pointer;
+    }
+}
 
 @mixin grid($columnas, $espaciado ) {
     display: grid;

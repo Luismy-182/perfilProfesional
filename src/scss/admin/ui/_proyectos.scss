@@ -1,0 +1,66 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+
+
+.card-proyecto{
+    
+    
+    box-shadow:  0 6px 20px 0 #E7E8EA; //sombra como el de devstagram
+    padding: 2rem;
+
+    @include m.tablet{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__info{
+        justify-content:flex-start;
+        
+        h2{
+            //font-size: 2.5rem;
+            //font-size: 1.8rem;
+            font-size: clamp(1.9rem, 2vw + .3rem, 2.5rem );
+        }
+        
+        p{
+            font-size: clamp(1.3rem, 2vw + .1rem, 1.6rem );
+            
+        }
+      
+    }
+
+    &__acciones{
+        
+        @include m.tablet{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        
+        }
+       
+        .boton-editar{
+            @include m.boton-xs(v.$azul-oscuro, v.$blanco);
+            border-radius: .5rem;
+            p{
+                margin: 0;
+                padding: 0;
+            }
+
+            margin-bottom: 1.5rem;
+            @include m.tablet{
+
+                margin-bottom:0;
+            }
+        }
+
+        .boton-eliminar{
+            @include m.boton-xs(v.$rojo, v.$blanco);
+            border-radius: .5rem;
+            padding: .9rem;
+            
+        }
+      
+       
+    }
+}

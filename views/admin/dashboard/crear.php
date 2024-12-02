@@ -15,3 +15,9 @@
 
 
 <?php include_once __DIR__ .'/../templates/footer.php'; ?>
+
+<?php 
+    $script = "
+        <script src='/build/js/menu.js'></script>
+    ";
+?>

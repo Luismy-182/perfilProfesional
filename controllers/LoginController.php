@@ -53,6 +53,17 @@ class LoginController{
             'alertas'=>$alertas
         ]);
     }
+
+
+    public static function logout()
+    {
+        isAuth();
+  
+        $_SESSION=[];
+        if(empty($_SESSION)){
+            header('Location: /');
+        }
+    }
 }
 
 

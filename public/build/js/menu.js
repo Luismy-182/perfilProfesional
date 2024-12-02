@@ -1,0 +1,1 @@
+function iniciarApp(){menuMobileAdmin()}function menuMobileAdmin(){document.querySelector("#barras").addEventListener("click",e=>{if(e.target.value="barras"){const e=document.querySelector("#menu");e.classList.contains("active")?e.classList.remove("active"):e.classList.add("active")}})}document.addEventListener("DOMContentLoaded",iniciarApp);

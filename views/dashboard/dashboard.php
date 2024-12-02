@@ -483,3 +483,9 @@
     </section>
   <div class="boton-arriba" id="ir-arriba"><i class="fa-solid fa-chevron-up"></i></div>
 
+
+  <?php 
+    $script = "
+        <script src='/build/js/app.js'></script>
+    ";
+?>

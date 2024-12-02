@@ -22,8 +22,21 @@
                         <?php echo $proyecto->descripcion;?>
                         </p>
                         <div class="proyecto__descripcion--botones">
-                            <a class="proyecto__descripcion-botonG" href="<?php echo $proyecto->enlace1;?>" target="_blank">Ver en Github</a>    
+                            <a class="proyecto__descripcion-botonG" href="<?php echo $proyecto->enlace1;?>" target="_blank">
+                                <?php echo($proyecto->enlace1 && $proyecto->enlace3)? 'Backend en Github':'Ver en Github';?>
+                            </a>    
+
+
+                            <?php if(!empty($proyecto->enlace2)){ ?>
                             <a class="proyecto__descripcion-botonP" href="<?php echo $proyecto->enlace2;?>" target="_blank">Ir a la aplicación</a>
+                            <?php } ?>
+
+
+                             <?php if(!empty($proyecto->enlace3)){ ?>
+                            <a class="proyecto__descripcion-botonG" href="<?php echo $proyecto->enlace3;?>" target="_blank">
+                                <?php echo($proyecto->enlace3)? 'Fronted en Github':'' ;?>
+                            </a>    
+                            <?php } ?>
                         </div>
                 </div>
             </div><!---------fin proyecto---------------------->

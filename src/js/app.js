@@ -2,12 +2,14 @@
                     /*************menu mobil******************************/
 
 //seleccionamos la hamburguesa que espere un click
+
 const barras=document.querySelector('#barras');
 
 
 
 //agregar un event listener
 //si la aburguesa escucha un click que ejecute una funcion
+
 barras.addEventListener('click', mostrarMenu);
 
 

@@ -161,8 +161,10 @@ class AdminController{
 
 
     public static function eliminar(){
+        isAuth();
         if($_SERVER['REQUEST_METHOD']==='POST'){
             $id=$_POST['id'];
+            
             $proyecto= Proyecto::where('id', $id);
             if(!isset($proyecto)){
                 header('Location: /admin');
@@ -180,6 +182,7 @@ class AdminController{
 
     //muestra mas información del proyecto
     public static function proyecto(Router $router){
+        isAuth();
         $id=$_GET['id'];
         $proyecto=Proyecto::where('id',$id);
         $id=filter_var($id, FILTER_VALIDATE_INT);

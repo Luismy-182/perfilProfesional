@@ -27,6 +27,7 @@ $router->post('/login/registro',[RegistroController::class,'index']);
 //login
 $router->get('/login',[LoginController::class,'index']);
 $router->post('/login',[LoginController::class,'index']);
+$router->get('/logout',[LoginController::class,'logout']);
 //Admin
 $router->get('/admin',[AdminController::class,'index']);
 //admin--crud

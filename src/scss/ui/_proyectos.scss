@@ -12,9 +12,7 @@
     
 }
 
-.proyecto:not(:last-child){
-    border-bottom: .5px dashed v.$gris-oscuro;
-}
+
 .proyecto{
     @include m.tablet{
        @include m.grid(2, 1rem);
@@ -113,4 +111,8 @@
         }
     }
     
+}
+
+.no-proyectos{
+    height: 100vh;
 }
